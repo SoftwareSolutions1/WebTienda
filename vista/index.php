@@ -1,10 +1,10 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
 -->
-<!DOCTYPE HTML>
+<html lang="es">
 <head>
 <title>Free Ecomm Template Website Template | Home :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -25,10 +25,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="index.html"><img src="images/logo.png" alt="" /></a>
 					</div>
                                     <div class="header_top_right" >
-                                        <form action="../controlador/loginSys.php">
+                                        <form action = "../controlador/loginSys.php" method = "POST" name="login">
                                             <div>
-                                                <input type="Text" value ="" name="userLoginTop" placeholder="Usuario" class="text_box_log" >
-                                                <input type="password" value ="" name="passLoginTop" placeholder="Contraseña" class="text_box_log">
+                                                 <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required>
+                    <input type="Text" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required>
                                                 <button type="submit" class="mybutton" style="height:36px" >Ingresar</button>
                                             </div>
                                         </form>
@@ -527,4 +527,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 </html>
-

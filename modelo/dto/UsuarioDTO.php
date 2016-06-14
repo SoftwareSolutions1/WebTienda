@@ -6,11 +6,13 @@
  * and open the template in the editor.
  */
 class UsuarioDTO{
+    
     private $id;
     private $nombre;
     private $apellido;
     private $usuario;
     private $contrasenia;
+    
     public function __set($var, $valor) {
         if (property_exists(__CLASS__, $var)) {
             $this->$var = $valor;

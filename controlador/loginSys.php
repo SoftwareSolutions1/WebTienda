@@ -1,34 +1,32 @@
 <?php
+
 include '../utils/ArrayUtils.php';
-include_once '../modelo/dao/UsuarioDao.php';
+include_once '../modelo/dao/usuarioDAO.php';
 include_once '../modelo/dto/UsuarioDTO.php';
+
 
 $datos = fillPost("ALL");
 $usuario = new UsuarioDTO();
-$usuarioDAO = new usuarioDao();
+$usuarioDAO = new usuarioDAO();
 
-foreach ($datos as $key => $val){
-    if ($key == "userLogin"){
+foreach ($datos as $key => $val) {
+    if ($key == "usuarioLogin") {
         $usuario->__set("usuario", $datos[$key]);
     }
     if ($key == "passLogin") {
-        $usuario->__set("contrasenia", $datos[$key]);        
+        $usuario->__set("contrasenia", $datos[$key]);
     }
 }
-$id = $usuarioDAO->login($usuario);
+$id_suscriptor = $usuarioDAO->login($usuario);
+/*observar el comportamineto de las consultas desde el usuarioDAO
+echo 'El id es:';
+echo print_r($id_suscriptor);*/
 
-if ($id !=""){
-$base = '../vista/prueba.php';
-$url = $base;
-session_start();
-$_SESSION['id'] = $id;
-header("Location: $url");
-exit;
-} else{ 
-    $data = array('mesnaje'=> "El usuario y/o contraseña es incorrecta.");
-    $base = '../vista/index.php';
-    $url = $base;
-    header("Location: $url");
+    if ($id_suscriptor != "") {
+    header('Location: ../vista/contact.html');//la nueva direcion
+    session_start();//inicia la sesion
+    exit;
+} else {
+    header("Location: ../vista/Error.php");
     exit;
 }
-
