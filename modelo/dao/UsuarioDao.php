@@ -6,22 +6,21 @@
  * and open the template in the editor.
  */
 
-include_once '/xampp/htdocs/WebTienda/modelo/db/dbConexion.php';
-include_once '/xampp/htdocs/WebTienda/modelo/dto/UsuarioDTO.php';
+include_once 'C:/xampp/htdocs/WebTienda/modelo/db/dbConexion.php';
+include_once 'C:/xampp/htdocs/WebTienda/modelo/dto/UsuarioDTO.php';
 
-class usuarioDao{
-    public function login ($usuario){
-        $con = new dbConexion;
-        $con->conectar();
-        $query = "SELECT * FROM usuarios WHERE nombre = '$usuario->usuario' AND contrasenia = '$usuario->contrasenia'";
-        $result = mysql_query($query) or die ("Error al guardar la informacion" .mysql_error()." ");
-        $data = mysql_fetch_assoc($result);
-        $usuario = new UsuarioDTO();
-        $usuario->id = $data ['id'];
-        $usuario->usuario = $data['usuario'];
-        $con->cerrar();
-        return id;
-                
+class usuarioDAO{
+        public function login($usuario) {
+        
+         $con = new dbConexion();
+         $con->conectar();
+         $query ="SELECT * FROM usuarios WHERE usuario = '$usuario->usuario' AND contrasenia = '$usuario->contrasenia'";
+         $result = mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "");
+         $data = mysql_fetch_assoc($result);
+         $id = $data['id'];
+         $con->cerrar();
+         return $id;
+         
     }
     
     public function getUsuario($id_suscriptor) {
