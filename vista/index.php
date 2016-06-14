@@ -223,7 +223,7 @@ and open the template in the editor.
   		    </div>
   		     <div class="header_bottom">
 			   <div class="slider-text">
-			   	<h2>Tienda <br/>Software Solution</h2>
+			   	<h2>Tienda <br/>Tienda Online</h2>
 			   	<p>Vivamus vitae augue at quam frigilla tristique sit amet<br/> acin ante sikumpre tisdin.</p>
 			   	<a href="#">Sitamet Tortorions</a>
 	  	      </div>
@@ -526,4 +526,11 @@ and open the template in the editor.
     <a href="#" id="toTop"> </a>
     <script type="text/javascript" src="js/navigation.js"></script>
 </body>
+<<<<<<< HEAD:vista/index.php
 </html>
+=======
+
+
+</html>
+
+>>>>>>> e8294f65b908f831856414a2ef63434ba885d9bd:vista/index.html
