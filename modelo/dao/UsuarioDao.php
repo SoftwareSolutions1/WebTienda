@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 
-include_once '/xampp/htdocs/PhpBiblio/modelo/db/dbConexion.php';
-include_once '/xampp/htdocs/PhpBiblio/modelo/dto/UsuarioDTO.php';
+include_once '/xampp/htdocs/WebTienda/modelo/db/dbConexion.php';
+include_once '/xampp/htdocs/WebTienda/modelo/dto/UsuarioDTO.php';
 
 class usuarioDao{
     public function login ($usuario){

@@ -69,6 +69,7 @@ body {
 	 display:inline-block;
 	 padding-left:18px;
 }
+
 .search_box form:after{
 	content:'';
 	position:absolute;
@@ -100,6 +101,18 @@ body {
 	outline:none;
 	padding:0;
 }
+
+.text_box_log {
+    height:30px; 
+    background: #8fa7ae;
+    border-style:solid; 
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    font-size:1em;
+    margin-right: 0;
+    vertical-align:middle;
+    
+}
+
 /** Navigation **/
 .navigation{
 	background:#e44f2b;
