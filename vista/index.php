@@ -27,8 +27,8 @@ and open the template in the editor.
                                     <div class="header_top_right" >
                                         <form action = "../controlador/loginSys.php" method = "POST" name="login">
                                             <div>
-                                                 <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required>
-                    <input type="Text" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required>
+                                                <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required class="text_box_log">
+                                                <input type="password" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required class="text_box_log">
                                                 <button type="submit" class="mybutton" style="height:36px" >Ingresar</button>
                                             </div>
                                         </form>
@@ -37,7 +37,7 @@ and open the template in the editor.
 							  <div class="search_box">
 							  	<span>Buscar</span>
 					     		<form>
-					     			<input type="text" value=""><input type="submit" value="">
+                                                            <input type="text" value="" style="height: 17px; width: 150px"><input type="submit" value="">
 					     		</form>
 					     		<div class="clear"></div>
 					     	</div>
@@ -223,7 +223,7 @@ and open the template in the editor.
   		    </div>
   		     <div class="header_bottom">
 			   <div class="slider-text">
-			   	<h2>Tienda <br/>Tienda Online</h2>
+			   	<h2> <br/>Tienda Online</h2>
 			   	<p>Vivamus vitae augue at quam frigilla tristique sit amet<br/> acin ante sikumpre tisdin.</p>
 			   	<a href="#">Sitamet Tortorions</a>
 	  	      </div>
@@ -526,11 +526,4 @@ and open the template in the editor.
     <a href="#" id="toTop"> </a>
     <script type="text/javascript" src="js/navigation.js"></script>
 </body>
-<<<<<<< HEAD:vista/index.php
 </html>
-=======
-
-
-</html>
-
->>>>>>> e8294f65b908f831856414a2ef63434ba885d9bd:vista/index.html
