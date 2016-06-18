@@ -27,8 +27,8 @@ and open the template in the editor.
                                     <div class="header_top_right" >
                                         <form action = "../controlador/loginSys.php" method = "POST" name="login">
                                             <div>
-                                                 <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required>
-                    <input type="Text" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required>
+                                                 <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required class ="text_box_log">
+                   								 <input type="Text" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required class ="text_box_log">
                                                 <button type="submit" class="mybutton" style="height:36px" >Ingresar</button>
                                             </div>
                                         </form>
