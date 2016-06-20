@@ -14,7 +14,7 @@ class usuarioDAO{
         
          $con = new dbConexion();
          $con->conectar();
-         $query ="SELECT * FROM usuarios WHERE usuario = '$usuario->usuario' AND contrasenia = '$usuario->contrasenia'";
+         $query ="SELECT * FROM clientes WHERE  usuario = '$usuario->usuario' AND contrasenia = '$usuario->contrasenia'";
          $result = mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "");
          $data = mysql_fetch_assoc($result);
          $id = $data['id'];

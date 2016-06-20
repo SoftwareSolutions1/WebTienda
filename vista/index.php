@@ -4,12 +4,10 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="es">
 <head>
-<title>Free Ecomm Template Website Template | Home :: w3layouts</title>
+<title>Tienda de tecnología | Home :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
@@ -22,56 +20,56 @@ and open the template in the editor.
   	  		<div class="wrap">
 				<div class="header_top">
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt="" /></a>
+						<a href="index.php"><img src="images/Axum_Logo.png" /></a>
 					</div>
-                                    <div class="header_top_right" >
-                                        <form action = "../controlador/loginSys.php" method = "POST" name="login">
-                                            <div>
-                                                <input type="Text" name ="usuarioLogin" placeholder="Usuario" title="Se necesita un usuario" required class="text_box_log">
-                                                <input type="password" name ="passLogin" placeholder="Contraseña" title="Se necesita una contraseña" required class="text_box_log">
-                                                <button type="submit" class="mybutton" style="height:36px" >Ingresar</button>
-                                            </div>
-                                        </form>
-                                    </div>
 						<div class="header_top_right">
-							  <div class="search_box">
-							  	<span>Buscar</span>
-					     		<form>
-                                                            <input type="text" value="" style="height: 17px; width: 150px"><input type="submit" value="">
-					     		</form>
-					     		<div class="clear"></div>
+                                                    <form action="../vista/preview.html ">
+                                                        <div>
+                                                            <button type="submit" class=" mybutton" style="margin-bottom: 10px">Iniciar sesión</button>
+                                                        </div>
+                                                </div>
+                                                <div class="header_top_right">
+                                                    </form>
+                                                    <form action="../vista/registro.php">
+                                                        <div>
+                                                            <button type="submit" class=" mybutton" style="margin-bottom: 10px; margin-right: 10px">Registrarse</button>
+                                                         </div>
+                                                    </form>
+                                                        <div class="clear"></div>
 					     	</div>
 					</div>
-			     <div class="clear"></div>
+			     <div class="clear"></div
   		    </div>     
   		    <div class="navigation">
   		    	<a class="toggleMenu" href="#">Menu</a>
 					<ul class="nav">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.html">Inicio</a>
 						</li>
 						<li  class="test">
-							<a href="#">Appliances</a>
+							<a href="#">Cómputo</a>
 							<ul>
 								<li>
-									<a href="#">Cookware</a>
+									<a href="#">Laptop</a>
 									<ul>
-										<li><a href="#">Pots & Pans</a></li>
-										<li><a href="#">Pressure Cookers</a></li>
+										<li><a href="#">Lenovo</a></li>
+										<li><a href="#">HP</a></li>
+										<li><a href="#">MAC</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="#">Storage</a>
+									<a href="#">Tablets</a>
 									<ul>
-										<li><a href="#">Bottles & Sippers</a></li>
-										<li><a href="#">Containers & Jars</a></li>
+										<li><a href="#">IPADS</a></li>
+										<li><a href="#">Android</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="#">Cutlery & Tableware</a>
+									<a href="#">Monitores</a>
 									<ul>
-										<li><a href="#">Cutlery</a></li>
-										<li><a href="#">Condiment Sets</a></li>
+										<li><a href="#">HP</a></li>
+										<li><a href="#">LG</a></li>
+										<li><a href="#">Acer</a></li>
 									</ul>
 								</li>
 								<li>
@@ -84,46 +82,43 @@ and open the template in the editor.
 							</ul>
 						</li>
 						<li>
-							<a href="#">Computers</a>
+							<a href="#">Impresion</a>
 							<ul>
 								<li>
-									<a href="#">Laptops</a>
+									<a href="#">Laser</a>
 									<ul>
 										<li><a href="#">HP</a></li>
-										<li><a href="#">Lenova</a></li>
+										<li><a href="#">Brother</a></li>
 										<li><a href="#">Dell</a></li>
-										<li><a href="#">All Brands</a></li>
+										<li><a href="#">Epson</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="#">Computer Accessories</a>
+									<a href="#">Inyección de tinta</a>
 									<ul>
-										<li><a href="#">External Hard Disks</a></li>
-										<li><a href="#">Pendrives</a></li>
-										<li><a href="#">PC Components</a></li>
-										<li><a href="#">Computer Peripherals</a></li>
-										<li><a href="#">Datacards & Routers</a></li>
-										<li><a href="#">Mouse</a></li>
-										<li><a href="#">Laptop Skins & Decals</a></li>
+										<li><a href="#">HP</a></li>
+										<li><a href="#">Canon</a></li>
+										<li><a href="#">Epson</a></li>
+										
 									</ul>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="#">Health & Beauty</a>
+							<a href="#">Gamers</a>
 							<ul>
-								<li><a href="#">Bath & Skin Care</a></li>
-								<li><a href="#">Health & Safety</a></li>
+								<li><a href="#">Consolas</a></li>
+								<li><a href="#">Videojuegos</a></li>
 								<li><a href="#">Maternity Care</a></li>
 								<li><a href="#">Body Care Combos</a></li>
 								
 							</ul>
 						</li>
 						<li>
-							<a href="#">Home & Garden</a>
+							<a href="#">Software</a>
 							<ul>
 								<li>
-									<a href="#">Home Furnishing</a>
+									<a href="#">Windows</a>
 									<ul>
 										<li><a href="#">Bed</a></li>
 										<li><a href="#">Bath</a></li>
@@ -223,7 +218,7 @@ and open the template in the editor.
   		    </div>
   		     <div class="header_bottom">
 			   <div class="slider-text">
-			   	<h2> <br/>Tienda Online</h2>
+			   	<h2>Lorem Ipsum Placerat <br/>Elementum Quistue Tunulla Maris</h2>
 			   	<p>Vivamus vitae augue at quam frigilla tristique sit amet<br/> acin ante sikumpre tisdin.</p>
 			   	<a href="#">Sitamet Tortorions</a>
 	  	      </div>
@@ -527,3 +522,4 @@ and open the template in the editor.
     <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 </html>
+

@@ -4,7 +4,7 @@ class dbConexion{
     private $server = "localhost";
     private $user = "root";
     private $pass = "";
-    private $db = "midb";
+    private $db = "store";
     public function conectar() {
         $this->con = mysql_connect($this->server, $this->user, $this->pass);
         mysql_set_charset('utf8');

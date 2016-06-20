@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dao/UsuarioDAO.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/controlador/loginSys.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/db/dbConexion.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dto/UsuarioDTO.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/css/registrarse.css</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/preview.html</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/index.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/registro.php</file>
         </group>
     </open-files>
 </project-private>
