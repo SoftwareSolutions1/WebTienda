@@ -72,16 +72,7 @@ and open the template in the editor.
 										<li><a href="#">Acer</a></li>
 									</ul>
 								</li>
-								<li>
-									<a href="#">Bar Accessories</a>
-									<ul>
-										<li><a href="#">Bottle Openers</a></li>
-										<li><a href="#">Flasks</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
+								
 							<a href="#">Impresion</a>
 							<ul>
 								<li>
@@ -109,9 +100,8 @@ and open the template in the editor.
 							<ul>
 								<li><a href="#">Consolas</a></li>
 								<li><a href="#">Videojuegos</a></li>
-								<li><a href="#">Maternity Care</a></li>
-								<li><a href="#">Body Care Combos</a></li>
-								
+								<li><a href="#">Accesorios</a></li>
+																
 							</ul>
 						</li>
 						<li>
@@ -126,14 +116,25 @@ and open the template in the editor.
 										<li><a href="#">Living</a></li>
 										
 									</ul>
+								<ul>
+								<li>
+									<a href="#">Seguridad</a>
+									<ul>
+										<li><a href="#">Norton</a></li>
+										<li><a href="#">McCafee</a></li>
+										<li><a href="#">KASPERSKY</a></li>
+										<li><a href="#">Living</a></li>
+										
+									</ul>
+
 								</li>
 								<li>
-									<a href="#">Home Decor</a>
+									<a href="#">Almacenamiento</a>
 									<ul>
-										<li><a href="#">Flowers & Plants</a></li>
-										<li><a href="#">Home Fragrances</a></li>
-										<li><a href="#">Spiritual Decor</a></li>
-										<li><a href="#">Wall Decor</a></li>
+										<li><a href="#">Kingston</a></li>
+										<li><a href="#">Hp</a></li>
+										<li><a href="#">Adata</a></li>
+										<li><a href="#">Skandick</a></li>
 									</ul>
 								</li>
 								<li>
