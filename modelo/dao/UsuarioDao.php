@@ -36,7 +36,26 @@ class usuarioDAO{
         return $id;
     }
     
-    public function insert(){
+    public function getIdSuscriptor() {
+        $con = new dbConnection();
+        $con->conectar();
+        $query = "SELECT COALESCE(MAX(id_cliente),0) AS id_cliente FROM clientes ";
+        $res = mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "");
+        $r = mysql_result($res, 0);
+        $con->cerrar();
+        $r++;
+        return $r;
+    }
+    
+    public function insertar(){
+        $con = new dbConnection();
+        $con->conectar();
+        $query = "INSERT INTO clientes(id_cliente, nombre, apel_pat, apel_mat, calle, colonia, cod_post,  ciudad, pais, num_tarjeta, usuario, password)
+                    VALUES( '$usuario->id_cliente', '$usuario->nombre', '$usuario->apel_pat', '$usuario->apel_mat', '$usuario->calle', '$usuario->colonia', 
+                    '$usuario->cod_post', '$usuario->ciudad', '$usuario->pais','$usuario->num_tarjeta','$usuario->usuario','$usuario->password')";
+        mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "" . exit());
+        //echo "$query";
+        $con->cerrar();
         return true;
     }
 

@@ -10,12 +10,13 @@ $usuario = new UsuarioDTO();
 $usuarioDAO = new usuarioDAO();
 
 foreach ($datos as $key => $val) {
-    if ($key == "usuarioLogin") {
-        $usuario->__set("usuario", $datos[$key]);
+        if ($key == "userReg") {
+        $usuario->__set("userReg", $datos[$key]);
     }
-    if ($key == "passLogin") {
-        $usuario->__set("contrasenia", $datos[$key]);
+        if ($key == "password") {
+        $usuario->__set("password", $datos[$key]);
     }
+    
 }
 $id_suscriptor = $usuarioDAO->login($usuario);
 /*observar el comportamineto de las consultas desde el usuarioDAO

@@ -7,11 +7,18 @@
  */
 class UsuarioDTO{
     
-    private $id;
+    private $id_cliente;
     private $nombre;
-    private $apellido;
+    private $apel_pat;
+    private $apel_mat;
+    private $calle;
+    private $colonia;
+    private $cod_post;
+    private $ciudad;
+    private $pais;
+    private $num_tarjeta;
     private $usuario;
-    private $contrasenia;
+    private $password;
     
     public function __set($var, $valor) {
         if (property_exists(__CLASS__, $var)) {

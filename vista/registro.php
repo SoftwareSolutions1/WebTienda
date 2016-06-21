@@ -19,7 +19,7 @@ and open the template in the editor.
 
 <h1>Crear cuenta</h1>
 
-	<form action="" method="POST">
+<form action="../controlador/registSys.php" method="POST">
 	<label for="email">Email </label><br>
 	<input type="text" id="email" name="email" placeholder="Ejem: carlos@mail.com" autofocus="autofocus"></input>
 	
