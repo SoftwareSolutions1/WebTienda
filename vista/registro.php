@@ -20,6 +20,11 @@
 					<h3>Iniciar sesión </h3>
 				</div>
 				<br>
+
+				<div class="form-group">
+				<label for="usuario">Usuario</label>
+						<input class="form-control" type="text" id="usuario" name="usuario" placeholder="Usuario"></input>
+						</div>
 			
 				
 					<label for="email">Email: </label>
@@ -33,6 +38,10 @@
 						</div>
 
 						<br>
+				<div class="form-group">
+				<label for="password">Contraseña</label>
+			<input class="form-control" type="password" id="password" name="password"></input>
+			</div>
 
 						<div class="col-md-3">
 				
