@@ -10,11 +10,11 @@ $usuario = new UsuarioDTO();
 $usuarioDAO = new usuarioDAO();
 
 foreach ($datos as $key => $val) {
-        if ($key == "userReg") {
+        if ($key == "userLogin") {
         $usuario->__set("userReg", $datos[$key]);
     }
         if ($key == "password") {
-        $usuario->__set("password", $datos[$key]);
+        $usuario->__set("passLogin", $datos[$key]);
     }
     
 }
