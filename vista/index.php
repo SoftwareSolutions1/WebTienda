@@ -5,7 +5,6 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <head>
-<<<<<<< HEAD
     <title>Tienda de tecnología | Home :: w3layouts</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -21,7 +20,6 @@ and open the template in the editor.
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
 </head>
 <body>
     <div class="header">
@@ -58,17 +56,17 @@ and open the template in the editor.
                                     <Form action="../controlador/loginSys.php" method="POST">
                                         <div class="form-group">
                                             <label for="usuario">Usuario</label>
-                                            <input class="form-control" type="text" id="usuario" name="userlogin" placeholder="Usuario"></input>
+                                            <input class="form-control" type="text" id="userLogin" name="userLogin" placeholder="Usuario"></input>
                                         </div>
                                         <br>
                                         <div class="form-group">
                                             <label for="password">Contraseña</label>
-                                            <input class="form-control" type="password" id="password" name="passlogin" placeholder="password"></input>
+                                            <input class="form-control" type="password" id="passlogin" name="passlogin" placeholder="password"></input>
                                         </div>
                                         <br>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                            <button type="submit" class="btn btn-primary">Registrarse</button>
+                                            <button type="submit" class="btn btn-primary">Inciar Sesión</button>
                                         </div>
                                     </Form>
                                 </div>
@@ -89,7 +87,7 @@ and open the template in the editor.
 
                                 <div class="modal-body">
 
-                                    <Form action="" method="POST">
+                                    <Form action="../controlador/registSys.php" method="POST">
 
                                         <div class="form-group">
                                             <label for="nombre">Nombre</label>
@@ -98,12 +96,12 @@ and open the template in the editor.
 
                                         <div class="form-group">
                                             <label for="usuario">Apellido Paterno</label>
-                                            <input class="form-control" type="text" id="a_paterno" name="a_paterno"></input>
+                                            <input class="form-control" type="text" id="apell_pat" name="apell_pat"></input>
                                         </div>
 
                                         <div class="form-group">
                                             <label for="password">Apellido Materno</label>
-                                            <input class="form-control" type="text" id="a_materno" name="a_materno"></input>
+                                            <input class="form-control" type="text" id="apell_mat" name="apell_mat"></input>
                                         </div>
 
                                         <div class="form-group">
@@ -322,8 +320,6 @@ and open the template in the editor.
             </div>
             <div class="clear"></div>
         </div>
-=======
-<title>Web Store | Home :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
@@ -332,223 +328,6 @@ and open the template in the editor.
 <script src="js/jquery.openCarousel.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
-</head>
-<body>
-	<div class="header">
-  	  		<div class="wrap">
-				<div class="header_top">
-					<div class="logo">
-						<a href="index.php"><img src="images/Axum_Logo.png" /></a>
-					</div>
-						<div class="header_top_right">
-                                                    <form action="../vista/preview.html ">
-                                                        <div>
-                                                            <button type="submit" class=" mybutton" style="margin-bottom: 10px">Iniciar sesión</button>
-                                                        </div>
-                                                </div>
-                                                <div class="header_top_right">
-                                                    </form>
-                                                    <form action="../vista/registro.php">
-                                                        <div>
-                                                            <button type="submit" class=" mybutton" style="margin-bottom: 10px; margin-right: 10px">Registrarse</button>
-                                                         </div>
-                                                    </form>
-                                                        <div class="clear"></div>
-					     	</div>
-					</div>
-			     <div class="clear"></div
-  		    </div>     
-  		    <div class="navigation">
-  		    	<a class="toggleMenu" href="#">Menu</a>
-					<ul class="nav">
-						<li>
-							<a href="index.html">Inicio</a>
-						</li>
-						<li  class="test">
-							<a href="#">Cómputo</a>
-							<ul>
-								<li>
-									<a href="#">Laptop</a>
-									<ul>
-										<li><a href="#">Lenovo</a></li>
-										<li><a href="#">HP</a></li>
-										<li><a href="#">MAC</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Tablets</a>
-									<ul>
-										<li><a href="#">IPADS</a></li>
-										<li><a href="#">Android</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Monitores</a>
-									<ul>
-										<li><a href="#">HP</a></li>
-										<li><a href="#">LG</a></li>
-										<li><a href="#">Acer</a></li>
-									</ul>
-								</li>
-								
-							<a href="#">Impresion</a>
-							<ul>
-								<li>
-									<a href="#">Laser</a>
-									<ul>
-										<li><a href="#">HP</a></li>
-										<li><a href="#">Brother</a></li>
-										<li><a href="#">Dell</a></li>
-										<li><a href="#">Epson</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Inyección de tinta</a>
-									<ul>
-										<li><a href="#">HP</a></li>
-										<li><a href="#">Canon</a></li>
-										<li><a href="#">Epson</a></li>
-										
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Gamers</a>
-							<ul>
-								<li><a href="#">Consolas</a></li>
-								<li><a href="#">Videojuegos</a></li>
-								<li><a href="#">Accesorios</a></li>
-																
-							</ul>
-						</li>
-						<li>
-							<a href="#">Software</a>
-							<ul>
-								<li>
-									<a href="#">Windows</a>
-									<ul>
-										<li><a href="#">Bed</a></li>
-										<li><a href="#">Bath</a></li>
-										<li><a href="#">Kitchen</a></li>
-										<li><a href="#">Living</a></li>
-										
-									</ul>
-								<ul>
-								<li>
-									<a href="#">Seguridad</a>
-									<ul>
-										<li><a href="#">Norton</a></li>
-										<li><a href="#">McCafee</a></li>
-										<li><a href="#">KASPERSKY</a></li>
-										<li><a href="#">Living</a></li>
-										
-									</ul>
-
-								</li>
-								<li>
-									<a href="#">Almacenamiento</a>
-									<ul>
-										<li><a href="#">Kingston</a></li>
-										<li><a href="#">Hp</a></li>
-										<li><a href="#">Adata</a></li>
-										<li><a href="#">Skandick</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Gardening Tools</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Office Supplies</a>
-							<ul>
-								<li>
-									<a href="#">Books</a>
-									<ul>
-										<li><a href="#">Academic & Professional</a></li>
-										<li><a href="#">Entrance Exam</a></li>
-										<li><a href="#">Literature & Fiction</a></li>
-										<li><a href="#">Children & Teens</a></li>
-										<li><a href="#">Indian Writing</a></li>
-										<li><a href="#">New Releases</a></li>
-										<li><a href="#">Bestsellers</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Stationery</a>
-									<ul>
-										<li><a href="#">Pens</a></li>
-										<li><a href="#">Calculators</a></li>
-										<li><a href="#">College Supplies</a></li>
-										<li><a href="#">Art Supplies</a></li>
-										<li><a href="#">Diaries & Notebooks</a></li>
-										<li><a href="#">Gifting</a></li>
-									</ul>
-								</li>
-								
-							</ul>
-						</li>
-						<li>
-							<a href="#">Sports Equipment</a>
-							<ul>
-								<li>
-									<a href="#">Fitness</a>
-									<ul>
-										<li><a href="#">Yoga Mats</a></li>
-										<li><a href="#">Gym Gloves</a></li>
-										<li><a href="#">Ab Exercisers</a></li>
-										<li><a href="#">Gym Balls</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Indoor Sports</a>
-									<ul>
-										<li><a href="#">Chess</a></li>
-										<li><a href="#">Darts</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Team Sports</a>
-									<ul>
-										<li><a href="#">Basketball</a></li>
-										<li><a href="#">Cricket</a></li>
-										<li><a href="#">Football</a></li>
-										<li><a href="#">VolleyBall</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Racquet Sports</a>
-									<ul>
-										<li><a href="#">Badminton</a></li>
-										<li><a href="#">Squash</a></li>
-										<li><a href="#">Table Tennis</a></li>
-										<li><a href="#">Tennis</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="contact.html">Contact Us</a>
-						</li>
-					</ul>
-					 <span class="left-ribbon"> </span> 
-      				 <span class="right-ribbon"> </span>    
-  		    </div>
-  		     <div class="header_bottom">
-			   <div class="slider-text">
-			   	<h2>Lorem Ipsum Placerat <br/>Elementum Quistue Tunulla Maris</h2>
-			   	<p>Vivamus vitae augue at quam frigilla tristique sit amet<br/> acin ante sikumpre tisdin.</p>
-			   	<a href="#">Sitamet Tortorions</a>
-	  	      </div>
-	  	      <div class="slider-img">
-	  	      	<img src="images/slider-img.png" alt="" />
-	  	      </div>
-	  	     <div class="clear"></div>
-	      </div>
-   		</div>
-   </div>
-   <!------------End Header ------------>
   <div class="main">
       <div class="content">
     	        <div class="content_top">

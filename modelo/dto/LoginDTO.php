@@ -1,11 +1,13 @@
 <?php
-class UsuarioDTO{
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+class LoginDTO{
     
     private $id_usuario;
-    private $nombre;
-    private $apell_pat;
-    private $apell_mat;
-    private $email;
     private $usuario;
     private $password;
     
@@ -24,3 +26,4 @@ class UsuarioDTO{
         return NULL;
     }
 }
+
