@@ -137,7 +137,7 @@ and open the template in the editor.
             <a class="toggleMenu" href="#">Menu</a>
             <ul class="nav">
                 <li>
-                    <a href="index.html">Inicio</a>
+                    <a href="index.php">Inicio</a>
                 </li>
                 <li  class="test">
                     <a href="#">Cómputo</a>
@@ -145,7 +145,7 @@ and open the template in the editor.
                         <li>
                             <a href="#">Laptop</a>
                             <ul>
-                                <li><a href="#">Lenovo</a></li>
+                                <li><a href="Lenovo.html">Lenovo</a></li>
                                 <li><a href="#">HP</a></li>
                                 <li><a href="#">MAC</a></li>
                             </ul>
@@ -165,14 +165,7 @@ and open the template in the editor.
                                 <li><a href="#">Acer</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Bar Accessories</a>
-                            <ul>
-                                <li><a href="#">Bottle Openers</a></li>
-                                <li><a href="#">Flasks</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                        </ul>
                 </li>
                 <li>
                     <a href="#">Impresion</a>
@@ -202,9 +195,6 @@ and open the template in the editor.
                     <ul>
                         <li><a href="#">Consolas</a></li>
                         <li><a href="#">Videojuegos</a></li>
-                        <li><a href="#">Maternity Care</a></li>
-                        <li><a href="#">Body Care Combos</a></li>
-
                     </ul>
                 </li>
                 <li>
@@ -213,97 +203,33 @@ and open the template in the editor.
                         <li>
                             <a href="#">Windows</a>
                             <ul>
-                                <li><a href="#">Bed</a></li>
-                                <li><a href="#">Bath</a></li>
-                                <li><a href="#">Kitchen</a></li>
-                                <li><a href="#">Living</a></li>
-
+                                <li><a href="#">Office365</a></li>
+                                <li><a href="#">Licencias</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Home Decor</a>
+                            <a href="#">Antivirus</a>
                             <ul>
-                                <li><a href="#">Flowers & Plants</a></li>
-                                <li><a href="#">Home Fragrances</a></li>
-                                <li><a href="#">Spiritual Decor</a></li>
-                                <li><a href="#">Wall Decor</a></li>
+                                <li><a href="#">Descargas</a></li>
+                                <li><a href="#">Licencias</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Gardening Tools</a>
-                        </li>
+                        
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Office Supplies</a>
+                    <a href="#">Soporte</a>
                     <ul>
-                        <li>
-                            <a href="#">Books</a>
-                            <ul>
-                                <li><a href="#">Academic & Professional</a></li>
-                                <li><a href="#">Entrance Exam</a></li>
-                                <li><a href="#">Literature & Fiction</a></li>
-                                <li><a href="#">Children & Teens</a></li>
-                                <li><a href="#">Indian Writing</a></li>
-                                <li><a href="#">New Releases</a></li>
-                                <li><a href="#">Bestsellers</a></li>
-                            </ul>
+                       
                         </li>
-                        <li>
-                            <a href="#">Stationery</a>
-                            <ul>
-                                <li><a href="#">Pens</a></li>
-                                <li><a href="#">Calculators</a></li>
-                                <li><a href="#">College Supplies</a></li>
-                                <li><a href="#">Art Supplies</a></li>
-                                <li><a href="#">Diaries & Notebooks</a></li>
-                                <li><a href="#">Gifting</a></li>
-                            </ul>
+                            
                         </li>
 
                     </ul>
                 </li>
+                
                 <li>
-                    <a href="#">Sports Equipment</a>
-                    <ul>
-                        <li>
-                            <a href="#">Fitness</a>
-                            <ul>
-                                <li><a href="#">Yoga Mats</a></li>
-                                <li><a href="#">Gym Gloves</a></li>
-                                <li><a href="#">Ab Exercisers</a></li>
-                                <li><a href="#">Gym Balls</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Indoor Sports</a>
-                            <ul>
-                                <li><a href="#">Chess</a></li>
-                                <li><a href="#">Darts</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Team Sports</a>
-                            <ul>
-                                <li><a href="#">Basketball</a></li>
-                                <li><a href="#">Cricket</a></li>
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">VolleyBall</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Racquet Sports</a>
-                            <ul>
-                                <li><a href="#">Badminton</a></li>
-                                <li><a href="#">Squash</a></li>
-                                <li><a href="#">Table Tennis</a></li>
-                                <li><a href="#">Tennis</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html">Contactanos</a>
                 </li>
             </ul>
             <span class="left-ribbon"> </span> 
