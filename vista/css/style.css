@@ -1410,7 +1410,7 @@ body {
 		padding:8px 0;
 	}
 	.toggleMenu{
-	  width:94%;
+	  width:100%;
 	}
 	.slider-text h2{
 		font-size:22px;
@@ -1452,7 +1452,7 @@ body {
 		margin-top: 2px;
 	}
 	.toggleMenu {
-       width:92%;
+       width:100%;
        padding:8px 15px;
     }
     .slider-text h2{
