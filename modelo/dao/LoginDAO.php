@@ -14,10 +14,10 @@ class LoginDAO{
         
          $con = new dbConexion();
          $con->conectar();
-         $query ="SELECT * FROM usuario WHERE  usuario = '$usuario->usuario' AND password = '$usuario->password'";
+         $query ="SELECT * FROM login WHERE  usuario = '$usuario->usuario' AND password = '$usuario->password'";
          $result = mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "");
          $data = mysql_fetch_assoc($result);
-         $id = $data['id'];
+         $id = $data['id_usuario'];
          $con->cerrar();
          return $id;
          
@@ -47,15 +47,15 @@ class LoginDAO{
         return $r;
     }
     
-    public function insertar(){
-        $con = new dbConnection();
+    public function insertarDatosLogin($userLogin){
+        $con = new dbConexion();
         $con->conectar();
-        $query = "INSERT INTO clientes(id_cliente, nombre, apel_pat, apel_mat, calle, colonia, cod_post,  ciudad, pais, num_tarjeta, usuario, password)
-                    VALUES( '$usuario->id_cliente', '$usuario->nombre', '$usuario->apel_pat', '$usuario->apel_mat', '$usuario->calle', '$usuario->colonia', 
-                    '$usuario->cod_post', '$usuario->ciudad', '$usuario->pais','$usuario->num_tarjeta','$usuario->usuario','$usuario->password')";
+        $query = "INSERT INTO login(id_usuario, usuario, password)
+                    VALUES( '$userLogin->id_usuario', '$userLogin->usuario','$userLogin->password')";
         mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "" . exit());
         //echo "$query";
         $con->cerrar();
+       //$prueb = "Funciona";
         return true;
     }
 

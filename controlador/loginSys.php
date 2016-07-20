@@ -1,13 +1,13 @@
 <?php
 
 include '../utils/ArrayUtils.php';
-include_once '../modelo/dao/UsuarioDAO.php';
-include_once '../modelo/dto/UsuarioDTO.php';
+include_once '../modelo/dao/loginDAO.php';
+include_once '../modelo/dto/loginDTO.php';
 
 
 $datos = fillPost("ALL");
-$usuario = new UsuarioDTO();
-$usuarioDAO = new UsuarioDAO();
+$usuario = new LoginDTO();
+$loginDAO = new LoginDAO();
 
 foreach ($datos as $key => $val) {
         if ($key == "userLogin") {
@@ -18,7 +18,7 @@ foreach ($datos as $key => $val) {
     }
     
 }
-$id_suscriptor = $usuarioDAO->login($usuario);
+$id_suscriptor = $loginDAO->login($usuario);
 /*observar el comportamineto de las consultas desde el usuarioDAO*/
 echo 'El id es:';
 echo print_r($id_suscriptor);

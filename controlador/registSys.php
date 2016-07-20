@@ -3,10 +3,14 @@
 include '../utils/ArrayUtils.php';
 include_once '../modelo/dao/UsuarioDAO.php';
 include_once '../modelo/dto/UsuarioDTO.php';
+include_once '../modelo/dao/loginDAO.php';
+include_once '../modelo/dto/loginDTO.php';
 
 $datos = fillPost("ALL");
 $usuario = new UsuarioDTO();
 $usuarioDAO = new UsuarioDAO();
+$userLogin = new LoginDTO();
+$userLoginDAO = new LoginDAO();
 
 foreach ($datos as $key => $val) {
     if ($key == "nombre") {
@@ -19,25 +23,26 @@ foreach ($datos as $key => $val) {
         $usuario->__set("apell_mat", $datos[$key]);
     }
     if ($key == "usuario") {
-        $usuario->__set("usuario", $datos[$key]);
+        $userLogin->__set("usuario", $datos[$key]);
     }
     if ($key == "email") {
         $usuario->__set("email", $datos[$key]);
     }
     if ($key == "password") {
-        $usuario->__set("password", $datos[$key]);
+        $userLogin->__set("password", $datos[$key]);
     }
 }
 /* observar el comportamineto de las consultas desde el usuarioDAO */
 $id_cliente = $usuarioDAO->getIdSuscriptor();
 $usuario->__set("id_usuario", $id_cliente);
-echo 'El id es:';
-$status = $usuarioDAO->insertar($usuario);
-echo print_r($status);
-//if ($status) {
-//    $usuario->__set("$id_usuario", $id_cliente);
-//    $status = $usuarioDAO->insertar($usuario);
+$userLogin ->__set("id_usuario",$id_cliente);
+//echo "El id es:  $id_cliente";
+//echo print_r($userLogin);
+$status = $usuarioDAO->insertarDatos($usuario);
 
+$statusLogin = $userLoginDAO -> insertarDatosLogin($userLogin);
+echo print_r($statusLogin);
+    
     if ($status) {
         $data = array(
             'id' => $id_cliente
@@ -45,7 +50,7 @@ echo print_r($status);
         header("Location: ../vista/contact.html");
         exit;
     }
-//}
+
 
 /* 
  * To change this license header, choose License Headers in Project Properties.

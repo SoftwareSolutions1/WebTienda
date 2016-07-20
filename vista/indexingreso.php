@@ -25,7 +25,7 @@ and open the template in the editor.
 				</div>
 				<div class="header_top_right">
                                     <div class="slider-text">
-					<h2>Bienvenido </h2>
+					<h2>Bienvenido</h2>
 				</div>
 					<div class="clear"></div>
 				</div>

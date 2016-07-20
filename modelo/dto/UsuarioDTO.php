@@ -6,8 +6,6 @@ class UsuarioDTO{
     private $apell_pat;
     private $apell_mat;
     private $email;
-    private $usuario;
-    private $password;
     
     public function __set($var, $valor) {
         if (property_exists(__CLASS__, $var)) {

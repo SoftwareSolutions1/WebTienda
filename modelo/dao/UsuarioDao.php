@@ -12,19 +12,7 @@ class UsuarioDAO{
         $r++;
         return $r;
     }
-
-    public function login($usuario) {
-        
-         $con = new dbConexion();
-         $con->conectar();
-         $query ="SELECT * FROM usuario WHERE  usuario = '$usuario->usuario' AND password = '$usuario->password'";
-         $result = mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "");
-         $data = mysql_fetch_assoc($result);
-         $id = $data['id_usuario'];
-         $con->cerrar();
-         return $id;         
-    }
-    public function insertar($usuario) {
+    public function insertarDatos($usuario) {
         $con = new dbConexion();
         $con->conectar();
         $query = "INSERT INTO usuario VALUES ( "
@@ -32,15 +20,8 @@ class UsuarioDAO{
                 . "'$usuario->nombre', "
                 . "'$usuario->apell_pat', "
                 . "'$usuario->apell_mat', "
-                . "'$usuario->email', "
-                . "'$usuario->usuario',"
-                . "'$usuario->password')";
-//        $query2 = "INSERT IN TO login VALUES ("
-//                . "$'usuario->id_usuario',"
-//                . "'$usuario->usuario'," 
-//                . "'$usuario->password')";
+                . "'$usuario->email')";
                 mysql_query($query) or die("Error al guardar la Informacion" . mysql_error() . "" . exit());
-                
         $con->cerrar();
         return true;
     }

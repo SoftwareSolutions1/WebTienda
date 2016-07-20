@@ -5,8 +5,11 @@
         <group>
             <file>file:/C:/xampp/htdocs/WebTienda/modelo/dao/UsuarioDAO.php</file>
             <file>file:/C:/xampp/htdocs/WebTienda/controlador/loginSys.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/vista/registro.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dao/LoginDAO.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/modelo/db/dbConexion.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/index.php</file>
             <file>file:/C:/xampp/htdocs/WebTienda/controlador/registSys.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dto/LoginDTO.php</file>
             <file>file:/C:/xampp/htdocs/WebTienda/modelo/dto/UsuarioDTO.php</file>
         </group>
     </open-files>
