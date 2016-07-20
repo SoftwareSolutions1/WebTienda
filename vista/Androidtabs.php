@@ -76,24 +76,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <a href="#">Laptop</a>
                             <ul>
-                                <li><a href="Lenovo.html">Lenovo</a></li>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">MAC</a></li>
+                                <li><a href="Lenovo.php">Lenovo</a></li>
+                                <li><a href="Hp.php">HP</a></li>
+                                <li><a href="Mac.php">MAC</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Tablets</a>
                             <ul>
-                                <li><a href="#">IPADS</a></li>
-                                <li><a href="#">Android</a></li>
+                                <li><a href="Ipads.php">IPADS</a></li>
+                                <li><a href="Androidtabs.php">Android</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Monitores</a>
+                            <a>Monitores</a>
                             <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">LG</a></li>
-                                <li><a href="#">Acer</a></li>
+                                <li><a href="Monhp.php">HP</a></li>
+                                <li><a href="Monlg.php">LG</a></li>
+                                <li><a href="Monacer.php">Acer</a></li>
                             </ul>
                         </li>
                         </ul>
@@ -104,18 +104,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <a href="#">Laser</a>
                             <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">Brother</a></li>
-                                <li><a href="#">Dell</a></li>
-                                <li><a href="#">Epson</a></li>
+                                <li><a href="Laserhp.php">HP</a></li>
+                                <li><a href="Laserbrother.php">Brother</a></li>
+                                <li><a href="Laserdell.php">Dell</a></li>
+                                <li><a href="Laserepson.php">Epson</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Inyección de tinta</a>
                             <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">Canon</a></li>
-                                <li><a href="#">Epson</a></li>
+                                <li><a href="Tintahp.php">HP</a></li>
+                                <li><a href="Tintacanon.php">Canon</a></li>
+                                <li><a href="Tintaepson.php">Epson</a></li>
 
                             </ul>
                         </li>
@@ -124,8 +124,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <li>
                     <a href="#">Gamers</a>
                     <ul>
-                        <li><a href="#">Consolas</a></li>
-                        <li><a href="#">Videojuegos</a></li>
+                        <li><a href="Consolas.php">Consolas</a></li>
+                        <li><a href="Videojuegos.php">Videojuegos</a></li>
                     </ul>
                 </li>
                 <li>
@@ -134,22 +134,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <a href="#">Windows</a>
                             <ul>
-                                <li><a href="#">Office365</a></li>
-                                <li><a href="#">Licencias</a></li>
+                                <li><a href="Office.php">Office365</a></li>
+                                <li><a href="Licenciaswindows.php">Licencias</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Antivirus</a>
                             <ul>
-                                <li><a href="#">Descargas</a></li>
-                                <li><a href="#">Licencias</a></li>
+                                <li><a href="Descargas.php">Descargas</a></li>
+                                <li><a href="Licenciasantivirus.php">Licencias</a></li>
                             </ul>
                         </li>
                         
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Soporte</a>
+                    <a href="Soporte.php">Soporte</a>
                     <ul>
                        
                         </li>
@@ -160,7 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </li>
                 
                 <li>
-                    <a href="contact.html">Contactanos</a>
+                    <a href="contact.php">Contactanos</a>
                 </li>
             </ul>
             <span class="left-ribbon"> </span> 
