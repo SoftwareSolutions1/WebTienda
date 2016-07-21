@@ -268,8 +268,8 @@ and open the template in the editor.
                     <div class="content-bottom-left">
                         <div class="categories">
                             <ul>
-                                <h3>Browse All Categories</h3>
-                                <li><a href="#">Inicio</a></li>
+                                <h3>Navegar en todas las categorías</h3>
+                                <li><a href="index.php">Inicio</a></li>
                                 <li><a href="#">Computo</a></li>
                                 <li><a href="#">Impresión</a></li>
                                 <li><a href="#">Gamers</a></li>
