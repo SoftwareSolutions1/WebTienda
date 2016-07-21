@@ -47,7 +47,7 @@ echo print_r($statusLogin);
         $data = array(
             'id' => $id_cliente
         );
-        header("Location: ../vista/contact.html");
+        header("Location: ../vista/indexingreso.php");
         exit;
     }
 
