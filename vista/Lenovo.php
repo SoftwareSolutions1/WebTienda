@@ -7,6 +7,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <head>
     <title>Tienda de tecnología | Home :: w3layouts</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/etalage.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
@@ -29,20 +33,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="css/etalage.css">
     <script src="js/jquery.etalage.min.js"></script>
     <script>
-         jQuery(document).ready(function ($) {
+        jQuery(document).ready(function ($) {
 
-             $('#etalage').etalage({
-                 thumb_image_width: 300,
-                 thumb_image_height: 400,
-                 source_image_width: 900,
-                 source_image_height: 1200,
-                 show_hint: true,
-                 click_callback: function (image_anchor, instance_id) {
-                     alert('Callback example:\nYou clicked on an image with the anchor: "' + image_anchor + '"\n(in Etalage instance: "' + instance_id + '")');
-                 }
-             });
+            $('#etalage').etalage({
+                thumb_image_width: 300,
+                thumb_image_height: 400,
+                source_image_width: 900,
+                source_image_height: 1200,
+                show_hint: true,
+                click_callback: function (image_anchor, instance_id) {
+                    alert('Callback example:\nYou clicked on an image with the anchor: "' + image_anchor + '"\n(in Etalage instance: "' + instance_id + '")');
+                }
+            });
 
-         });
+        });
     </script>
     <script src="js/star-rating.js" type="text/javascript"></script>
 </head>
@@ -51,11 +55,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="wrap">
             <div class="header_top">
                 <div class="logo">
-                    <a href="index.php"><img src="images/logo.png" alt="" /></a>
+                    <a href="index.php"><img src="images/Axum_Logo.png" alt="" /></a>
                 </div>
                 <div class="header_top_right">
                     <div class="search_box">
-                        <span>Search</span>
+                        <span>Buscar</span>
                         <form>
                             <input type="text" value=""><input type="submit" value="">
                         </form>
@@ -68,10 +72,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a class="toggleMenu" href="#">Menu</a>
                 <ul class="nav">
                     <li>
-                        <a href="index.php">Inicio</a>
+                        <a href="index.php"> . . . . . .  .Inicio . . . . . . .</a> 
                     </li>
                     <li  class="test">
-                        <a href="#">Cómputo</a>
+                        <a href="#"> . . . . . .  .Cómputo . . . . . . .</a>
                         <ul>
                             <li>
                                 <a href="#">Laptop</a>
@@ -99,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Impresion</a>
+                        <a href="#"> . . . . . . . Impresion . . . . . . .</a>
                         <ul>
                             <li>
                                 <a href="#">Laser</a>
@@ -122,14 +126,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Gamers</a>
+                        <a href="#"> . . . . . . . Gamers . . . . . . .</a>
                         <ul>
                             <li><a href="Consolas.php">Consolas</a></li>
                             <li><a href="Videojuegos.php">Videojuegos</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Software</a>
+                        <a href="#"> . . . . .  . . Software . . . . . . .</a>
                         <ul>
                             <li>
                                 <a href="#">Windows</a>
@@ -149,7 +153,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </ul>
                     </li>
                     <li>
-                        <a href="Soporte.php">Soporte</a>
+                        <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
                         <ul>
 
                     </li>
@@ -160,7 +164,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </li>
 
                 <li>
-                    <a href="contact.php">Contactanos</a>
+                    <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
                 </li>
                 </ul>
                 <span class="left-ribbon"> </span> 
@@ -175,9 +179,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="section group">
                     <div class="cont-desc span_1_of_2">
                         <ul class="back-links">
-                            <li><a href="#">Home</a> ::</li>
-                            <li><a href="#">Product Page</a> ::</li>
-                            <li>Product Name</li>
+                            <li><a href="#">Inicio</a> ::</li>
+                            <li><a href="#">Pagina del producto </a> ::</li>
+                            <li>Nobre del producto</li>
                             <div class="clear"> </div>
                         </ul>
                         <div class="product-details">	
@@ -207,31 +211,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <h2>Whirlpool LTE5243D 3.4 CuFt.... </h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>					
                                 <div class="price">
-                                    <p>Price: <span>$839.93</span></p>
+                                    <p>Precio: <span>$839.93</span></p>
                                 </div>
                                 <div class="available">
                                     <ul>
-                                        <li><span>Model:</span> &nbsp; Model 1</li>
-                                        <li><span>Shipping Weight:</span>&nbsp; 75.58 kg</li>
-                                        <li><span>Units in Stock:</span>&nbsp; 566</li>
+                                        <li><span>Modelo:</span> &nbsp; Modelo 1</li>
+                                        <li><span>Peso para el envío:</span>&nbsp; 75.58 kg</li>
+                                        <li><span>Unidades en Stock:</span>&nbsp; 566</li>
                                     </ul>
                                 </div>
                                 <div class="share-desc">
                                     <div class="share">
-                                        <p>Number of units :</p><input type="number" class="text_box" type="text" value="1" min="1" />				
+                                        <p>Número de unidades :</p><input type="number" class="text_box" type="text" value="1" min="1" />				
                                     </div>
-                                    <div class="button"><span><a href="#">Add to Cart</a></span></div>					
+                                    <div class="button"><span><a href="#">Añadir al carrito</a></span></div>					
                                     <div class="clear"></div>
                                 </div>
                                 <div class="wish-list">
                                     <ul>
-                                        <li class="wish"><a href="#">Add to Wishlist</a></li>
-                                        <li class="compare"><a href="#">Add to Compare</a></li>
+                                        <li class="wish"><a href="#">Añadir a la lista de deseos</a></li>
+                                        <li class="compare"><a href="#">Añadir a comparar</a></li>
                                     </ul>
                                 </div>
                                 <div class="colors-share">
                                     <div class="color-types">
-                                        <h4>Available Colors</h4>
+                                        <h4>Colores disponibles</h4>
                                         <form class="checkbox-buttons">
                                             <ul>
                                                 <li><input id="r1" name="r1" type="radio"><label for="r1" class="grey"> </label></li>
@@ -242,7 +246,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         </form>
                                     </div>
                                     <div class="social-share">
-                                        <h4>Share Product</h4>
+                                        <h4>Compartir producto</h4>
                                         <ul>
                                             <li><a class="share-face" href="#"> </a></li>
                                             <li><a class="share-twitter" href="#"> </a></li>
@@ -259,15 +263,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="product_desc">	
                             <div id="horizontalTab">
                                 <ul class="resp-tabs-list">
-                                    <li>Specifications</li>
-                                    <li>product Tags</li>
-                                    <li>Product Reviews</li>
+                                    <li>Presupuesto</li>
+                                    <li>Etiquetas del producto</li>
+                                    <li>Evaluación de productos</li>
                                     <div class="clear"></div>
                                 </ul>
                                 <div class="resp-tabs-container">
                                     <div class="product-specifications">
                                         <ul>
-                                            <li><span class="specification-heading">Body type</span> <span>Metal</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Tipo de cuerpo</span> <span>Metal</span><div class="clear"></div></li>
                                             <li><span class="specification-heading">Spin Speed (rpm)</span> <span>0/400/800/1000/1200</span><div class="clear"></div></li>
                                             <li><span class="specification-heading">Machine weight (kg)</span> <span>75</span><div class="clear"></div></li>
                                             <li><span class="specification-heading">Wash System</span> <span>Tumble wash</span><div class="clear"></div></li>
@@ -281,48 +285,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     </div>
 
                                     <div class="product-tags">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                        <h4>Add Your Tags:</h4>
+                                        <p>Añada sus etiquetas para identificar sus productos seleccionados.</p>
+                                        <h4>Añadir sus etiquetas :</h4>
                                         <div class="input-box">
                                             <input type="text" value="">
                                         </div>
-                                        <div class="button"><span><a href="#">Add Tags</a></span></div>
+                                        <div class="button"><span><a href="#">Agregar etiquetas</a></span></div>
                                     </div>	
 
                                     <div class="review">
-                                        <h4>Lorem ipsum Review by <a href="#">Finibus Bonorum</a></h4>
                                         <ul>
-                                            <li>Price : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div>
+                                            <li>Precio : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div>
                                             </li>
-                                            <li>Value : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div></li>
-                                            <li>Quality : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div></li>
+                                            <li>Valor : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div></li>
+                                            <li>Calidad : <div class="rating-stars"><div class="rating" data-rating-max="5"> </div> </div></li>
                                         </ul>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                         <div class="your-review">
-                                            <h4>How Do You Rate This Product?</h4>
-                                            <p>Write Your Own Review?</p>
+                                            <h4>¿Cómo califica a este producto ?</h4>
+                                            <p>Escriba su propia opinión ?</p>
                                             <form>
                                                 <div>
-                                                    <span><label>Nickname<span class="red">*</span></label></span>
+                                                    <span><label>Usuario<span class="red">*</span></label></span>
                                                     <span><input type="text" value=""></span>
                                                 </div>
-                                                <div><span><label>Summary of Your Review<span class="red">*</span></label></span>
+                                                <div><span><label>Resumen de tu opinión<span class="red">*</span></label></span>
                                                     <span><input type="text" value=""></span>
                                                 </div>						
                                                 <div>
-                                                    <span><label>Review<span class="red">*</span></label></span>
+                                                    <span><label>Opinión<span class="red">*</span></label></span>
                                                     <span><textarea> </textarea></span>
                                                 </div>
                                                 <div>
-                                                    <span><input type="submit" value="SUBMIT REVIEW"></span>
+                                                    <span><input type="submit" value="Enviar Opnión"></span>
                                                 </div>
                                             </form>
                                         </div>			
                                         <script type="text/javascript">
-   /* place inside document ready function */
-   $(".rating").starRating({
-       minus: true // step minus button
-   });
+        /* place inside document ready function */
+        $(".rating").starRating({
+            minus: true // step minus button
+        });
                                         </script>	
                                     </div>
                                 </div>
@@ -330,7 +332,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
                     </div>
                     <div class="rightsidebar span_3_of_1 sidebar">
-                        <h3>Popular Products</h3>
+                        <h3>productos populares</h3>
                         <ul class="popular-products">
                             <li>
                                 <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
@@ -340,7 +342,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="preview.html">More Info</a></h4>
+                                        <h4><a href="preview.html">Mas información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
@@ -353,7 +355,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="preview.html">More Info</a></h4>
+                                        <h4><a href="preview.html">Mas información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
@@ -366,7 +368,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                         <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="preview.html">More Info</a></h4>
+                                        <h4><a href="preview.html">Mas información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
@@ -374,34 +376,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </ul>
 
                         <div class="community-poll">
-                            <h3>Community POll</h3>
-                            <p>What is the main reason for you to purchase products online?</p>
+                            <h3>Comunidad</h3>
+                            <p>¿Cuál es la razón principal para que usted compre productos en línea?</p>
                             <div class="poll">
                                 <form>
                                     <ul>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="1">
-                                            <span class="label"><label>More convenient shipping and delivery </label></span>
+                                            <span class="label"><label>el envío y la entrega más conveniente </label></span>
                                         </li>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="2">
-                                            <span class="label"><label for="vote_2">Lower price</label></span>
+                                            <span class="label"><label for="vote_2">Precios más bajo</label></span>
                                         </li>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="3">
-                                            <span class="label"><label for="vote_3">Bigger choice</label></span>
+                                            <span class="label"><label for="vote_3">La elección más grande</label></span>
                                         </li>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="5">
-                                            <span class="label"><label for="vote_5">Payments security </label></span>
+                                            <span class="label"><label for="vote_5">Seguridad de los pagos </label></span>
                                         </li>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="6">
-                                            <span class="label"><label for="vote_6">30-day Money Back Guarantee </label></span>
+                                            <span class="label"><label for="vote_6">30 días de garantía de devolución de dinero </label></span>
                                         </li>
                                         <li>
                                             <input type="radio" name="vote" class="radio" value="7">
-                                            <span class="label"><label for="vote_7">Other.</label></span>
+                                            <span class="label"><label for="vote_7">Otro.</label></span>
                                         </li>
                                     </ul>
                                 </form>
@@ -413,7 +415,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="content_top">
             <div class="wrap">
-                <h3>Recently Viewed</h3>
+                <h3>Visto recientemente</h3>
             </div>
             <div class="line"> </div>
             <div class="wrap">
@@ -446,14 +448,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="footer">
         <div class="wrap">	
             <div class="copy_right">
-                <p>Copy rights (c). All rights Reseverd | Template by  <a href="http://w3layouts.com" target="_blank">W3Layouts</a> </p>
+                <p>Copy rights (c). All rights Reseverd | Axum Tecnology  <a href="http://AxumTecnology.com" target="_blank">Power by Software Solutions</a> </p>
             </div>	
             <div class="footer-nav">
                 <ul>
-                    <li><a href="#">Terms of Use</a> : </li>
-                    <li><a href="#">Privacy Policy</a> : </li>
-                    <li><a href="contact.html">Contact Us</a> : </li>
-                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Terminos de uso</a> : </li>
+                    <li><a href="#">Politica de privacidad</a> : </li>
+                    <li><a href="contact.php">Contactanos</a> : </li>
+                    <li><a href="contact.php">Nuestra ubicación</a></li>
                 </ul>
             </div>		
         </div>
@@ -468,4 +470,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 </html>
-

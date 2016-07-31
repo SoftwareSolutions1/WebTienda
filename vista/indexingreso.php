@@ -6,6 +6,10 @@ and open the template in the editor.
 -->
 <head>
     <title>Tienda de tecnología | Home :: w3layouts</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/etalage.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
@@ -43,181 +47,107 @@ and open the template in the editor.
             <div class="clear"></div
         </div>     
         <div class="navigation">
-            <a class="toggleMenu" href="#">Menu</a>
-            <ul class="nav">
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li  class="test">
-                    <a href="#">Cómputo</a>
-                    <ul>
-                        <li>
-                            <a href="#">Laptop</a>
-                            <ul>
-                                <li><a href="#">Lenovo</a></li>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">MAC</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Tablets</a>
-                            <ul>
-                                <li><a href="#">IPADS</a></li>
-                                <li><a href="#">Android</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Monitores</a>
-                            <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">LG</a></li>
-                                <li><a href="#">Acer</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Software</a>
-                            <ul>
-                                <li><a href="#">Windows</a></li>
-                                <li><a href="#">Seguridad</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Impresion</a>
-                    <ul>
-                        <li>
-                            <a href="#">Laser</a>
-                            <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">Brother</a></li>
-                                <li><a href="#">Dell</a></li>
-                                <li><a href="#">Epson</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Inyección de tinta</a>
-                            <ul>
-                                <li><a href="#">HP</a></li>
-                                <li><a href="#">Canon</a></li>
-                                <li><a href="#">Epson</a></li>
+                <a class="toggleMenu" href="#">Menu</a>
+                <ul class="nav">
+                    <li>
+                        <a href="index.php"> . . . . . .  .Inicio . . . . . . .</a> 
+                    </li>
+                    <li  class="test">
+                        <a href="#"> . . . . . .  .Cómputo . . . . . . .</a>
+                        <ul>
+                            <li>
+                                <a href="#">Laptop</a>
+                                <ul>
+                                    <li><a href="Lenovo.php">Lenovo</a></li>
+                                    <li><a href="Hp.php">HP</a></li>
+                                    <li><a href="Mac.php">MAC</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Tablets</a>
+                                <ul>
+                                    <li><a href="Ipads.php">IPADS</a></li>
+                                    <li><a href="Androidtabs.php">Android</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Monitores</a>
+                                <ul>
+                                    <li><a href="Monhp.php">HP</a></li>
+                                    <li><a href="Monlg.php">LG</a></li>
+                                    <li><a href="Monacer.php">Acer</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> . . . . . . . Impresion . . . . . . .</a>
+                        <ul>
+                            <li>
+                                <a href="#">Laser</a>
+                                <ul>
+                                    <li><a href="Laserhp.php">HP</a></li>
+                                    <li><a href="Laserbrother.php">Brother</a></li>
+                                    <li><a href="Laserdell.php">Dell</a></li>
+                                    <li><a href="Laserepson.php">Epson</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Inyección de tinta</a>
+                                <ul>
+                                    <li><a href="Tintahp.php">HP</a></li>
+                                    <li><a href="Tintacanon.php">Canon</a></li>
+                                    <li><a href="Tintaepson.php">Epson</a></li>
 
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Gamers</a>
-                    <ul>
-                        <li><a href="#">Consolas</a></li>
-                        <li><a href="#">Videojuegos</a></li>
-                        <li><a href="#">Accesorios</a></li>
-                        <li><a href="#">Varios</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> . . . . . . . Gamers . . . . . . .</a>
+                        <ul>
+                            <li><a href="Consolas.php">Consolas</a></li>
+                            <li><a href="Videojuegos.php">Videojuegos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> . . . . .  . . Software . . . . . . .</a>
+                        <ul>
+                            <li>
+                                <a href="#">Windows</a>
+                                <ul>
+                                    <li><a href="Office.php">Office365</a></li>
+                                    <li><a href="Licenciaswindows.php">Licencias</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Antivirus</a>
+                                <ul>
+                                    <li><a href="Antivirus.php">Descargas</a></li>
+                                    <li><a href="Licenciasantivirus.php">Licencias</a></li>
+                                </ul>
+                            </li>
 
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Software</a>
-                    <ul>
-                        <li>
-                            <a href="#">Windows</a>
-                            <ul>
-                                <li><a href="#">Bed</a></li>
-                                <li><a href="#">Bath</a></li>
-                                <li><a href="#">Kitchen</a></li>
-                                <li><a href="#">Living</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
+                        <ul>
 
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Seguridad</a>
-                            <ul>
-                                <li><a href="#">McCafee</a></li>
-                                <li><a href="#">Norton</a></li>
-                                <li><a href="#">Karpesky</a></li>
-                                <li><a href="#">Wall Decor</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Gardening Tools</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Redes</a>
-                    <ul>
-                        <li>
-                            <a href="#">Switch</a>
-                            <ul>
-                                <li><a href="#">Academic & Professional</a></li>
-                                <li><a href="#">Entrance Exam</a></li>
-                                <li><a href="#">Literature & Fiction</a></li>
-                                <li><a href="#">Children & Teens</a></li>
-                                <li><a href="#">Indian Writing</a></li>
-                                <li><a href="#">New Releases</a></li>
-                                <li><a href="#">Bestsellers</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Routers</a>
-                            <ul>
-                                <li><a href="#">Pens</a></li>
-                                <li><a href="#">Calculators</a></li>
-                                <li><a href="#">College Supplies</a></li>
-                                <li><a href="#">Art Supplies</a></li>
-                                <li><a href="#">Diaries & Notebooks</a></li>
-                                <li><a href="#">Gifting</a></li>
-                            </ul>
-                        </li>
+                    </li>
 
-                    </ul>
+                    </li>
+
+                </ul>
                 </li>
+
                 <li>
-                    <a href="#">Productos</a>
-                    <ul>
-                        <li>
-                            <a href="#">Altas</a>
-                            <ul>
-                                <li><a href="#">Yoga Mats</a></li>
-                                <li><a href="#">Gym Gloves</a></li>
-                                <li><a href="#">Ab Exercisers</a></li>
-                                <li><a href="#">Gym Balls</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Indoor Sports</a>
-                            <ul>
-                                <li><a href="#">Chess</a></li>
-                                <li><a href="#">Darts</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Team Sports</a>
-                            <ul>
-                                <li><a href="#">Basketball</a></li>
-                                <li><a href="#">Cricket</a></li>
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">VolleyBall</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Racquet Sports</a>
-                            <ul>
-                                <li><a href="#">Badminton</a></li>
-                                <li><a href="#">Squash</a></li>
-                                <li><a href="#">Table Tennis</a></li>
-                                <li><a href="#">Tennis</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
                 </li>
-                <li>
-                    <a href="contact.html">Contacto</a>
-                </li>
-            </ul>
-            <span class="left-ribbon"> </span> 
-            <span class="right-ribbon"> </span>    
-        </div>
+                </ul>
+                <span class="left-ribbon"> </span> 
+                <span class="right-ribbon"> </span>    
+            </div>
         <div class="header_bottom">
             <div class="slider-text">
                 <h2>Promociones <br/>Ofertas</h2>

@@ -10,12 +10,8 @@ and open the template in the editor.
     <link rel="stylesheet" href="css/etalage.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/easy-responsive-tabs.css" rel="stylesheet" type="text/css" media="all"/>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
     <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
@@ -33,119 +29,24 @@ and open the template in the editor.
                 </div>
                 <div class="header_top_right">
                     <div>
-                        <button type="button" class="mybutton" data-toggle="modal" data-target="#ventana">
-                            Ingresa
+                         <form action="../controlador/cerrarSession.php">
+                        <button type="submit" class="mybutton" >
+                            Log out
+                           
                         </button>
+                             </form>
                     </div>
                 </div>
                 <div class="header_top_right">
-                    <div>
-                        <button type="submit" class="mybutton " data-toggle="modal" data-target="#ventana2">
-                            Registro
-                        </button>
+                    <div class="slider-text">
+                        <h2>Bienvenido</h2>
                     </div>
                     <div class="clear"></div>
                 </div>
-                <div class="header_top_right">
-                    <div class="search_box">
-                        <span>Buscar</span>
-                        <form>
-                            <input type="text" value=""><input type="submit" value="">
-                        </form>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <!--modal de login--> 
-                <div class="container">
-                    <div class="modal fade" id="ventana" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span arial-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-                                    <h4 class="modal-title" style="text-align: center;" id="ModalLabel">Inicio de sesión</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <Form action="../controlador/loginSys.php" method="POST">
-                                        <div class="form-group">
-                                            <label for="usuario">Usuario</label>
-                                            <input class="form-control" type="text" id="userLogin" name="userLogin" placeholder="Usuario"></input>
-                                        </div>
-                                        <br>
-                                        <div class="form-group">
-                                            <label for="password">Contraseña</label>
-                                            <input class="form-control" type="password" id="passlogin" name="passlogin" placeholder="password"></input>
-                                        </div>
-                                        <br>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                            <button type="submit" class="btn btn-primary">Inciar Sesión</button>
-                                        </div>
-                                    </Form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--modal de registro-->
-                <div class="container">
-                    <div class="modal fade" id="ventana2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span arial-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-                                    <h4 class="modal-title" style="text-align: center;" id="ModalLabel">Registrarse</h4>
-                                </div>
-
-                                <div class="modal-body">
-
-                                    <Form action="../controlador/registSys.php" method="POST">
-
-                                        <div class="form-group">
-                                            <label for="nombre">Nombre</label>
-                                            <input class="form-control" type="text" id="nombre" name="nombre" placeholder=""></input>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="usuario">Apellido Paterno</label>
-                                            <input class="form-control" type="text" id="apell_pat" name="apell_pat"></input>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="password">Apellido Materno</label>
-                                            <input class="form-control" type="text" id="apell_mat" name="apell_mat"></input>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="usuario">Usuario</label>
-                                            <input class="form-control" type="text" id="usuario" name="usuario" placeholder="Usuario"></input>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="password">Contraseña</label>
-                                            <input class="form-control" type="password" id="password" name="password" placeholder="password"></input>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">Email: </label>
-                                            <input class="form-control" type="text" id="email" name="email" placeholder="Ejem: carlos@mail.com" autofocus="autofocus"></input>
-                                        </div>
-
-
-
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                            <button type="submit" class="btn btn-primary">Registrarse</button>
-                                        </div>
-                                    </Form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div> <div
             </div>
-            </div>
-        </div>
-            <div class="navigation">
+            <div class="clear"></div
+        </div>     
+        <div class="navigation">
                 <a class="toggleMenu" href="#">Menu</a>
                 <ul class="nav">
                     <li>
@@ -180,7 +81,7 @@ and open the template in the editor.
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Impresion . . . . . . .</a>
+                        <a href="#"> . . . . . . Impresion . . . . . .</a>
                         <ul>
                             <li>
                                 <a href="#">Laser</a>
@@ -203,14 +104,14 @@ and open the template in the editor.
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Gamers . . . . . . .</a>
+                        <a href="#"> . . . . . . Gamers . . . . . .</a>
                         <ul>
                             <li><a href="Consolas.php">Consolas</a></li>
                             <li><a href="Videojuegos.php">Videojuegos</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . .  . . Software . . . . . . .</a>
+                        <a href="#"> . . . . .  . Software . . . . . .</a>
                         <ul>
                             <li>
                                 <a href="#">Windows</a>
@@ -230,7 +131,7 @@ and open the template in the editor.
                         </ul>
                     </li>
                     <li>
-                        <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
+                        <a href="Soporte.php"> . . . . . Soporte . . . . .</a>
                         <ul>
 
                     </li>
@@ -241,33 +142,30 @@ and open the template in the editor.
                 </li>
 
                 <li>
-                    <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
+                    <a href="Registro_productos.php">Registra o elimna productos aqui</a>
                 </li>
                 </ul>
                 <span class="left-ribbon"> </span> 
                 <span class="right-ribbon"> </span>    
             </div>
-   
-
-    <div class="header_bottom">
-        <div class="slider-text">
-            <h2>Promociones <br/>Ofertas</h2>
+        <div class="header_bottom">
+            <div class="slider-text">
+                <h2>Promociones <br/>Ofertas</h2>
                 <p>Descuentos<br/> Junio!!</p>
                 <a href="#">PRODUCTOS NUEVOS</a>
+            </div>
+            <div class="slider-img">
+                <img src="images/slider-img.png" alt="" />
+            </div>
+            <div class="clear"></div>
         </div>
-        <div class="slider-img">
-            <img src="images/slider-img.png" alt="" />
-        </div>
-        <div class="clear"></div>
     </div>
-        
-     </div>
-   
-    <div class="main">
-        <div class="content">
-            <div class="content_top">
-                <div class="wrap">
-                    <h3>Nuestros ultimos productos</h3>
+<!------------End Header ------------>
+<div class="main">
+    <div class="content">
+        <div class="content_top">
+            <div class="wrap">
+                <h3>Nuestros ultimos productos</h3>
                 </div>
                 <div class="line"> </div>
                 <div class="wrap">
@@ -284,7 +182,7 @@ and open the template in the editor.
                                 <a href="#" title="img2"> <img src="images/latest-product-img2.jpg" alt="" /><p>offcie 365</p></a>
                                 <a href="#" title="img3"> <img src="images/latest-product-img3.jpg" alt="" /><p>Licencias</p></a>
                                 <a href="#" title="img4"> <img src="images/latest-product-img4.jpg" alt="" /><p>antivirus</p></a>
-                                <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>Descarga software gratuito</p></a>
+                                <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>Descarga de software gratuito</p></a>
                                 <a href="#" title="img6"> <img src="images/latest-product-img6.jpg" alt="" /><p>Soporte</p></a>
                             </div>
                             <span>           
