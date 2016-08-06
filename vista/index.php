@@ -22,7 +22,138 @@ and open the template in the editor.
     <script src="js/jquery.openCarousel.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript">
+            $(function() {
+                //Validacion del Formulario de Login
+                $("#loginForm").validate({
+                    rules: {
+                        buscar: {
+                            required: true,
+                            minlength: 6
+                        },
+                        passLogin: {
+                            required: true,
+                            minlength: 6
+                        }
+                    },
+                    messages: {
+                        buscar: {
+                            required: "Ingresa el usuario por favor",
+                            minlength: "El usuario no puede ser menor a 6 caracteres."
+                        },
+                        passLogin: {
+                            required: "Ingresa una constraseña por favor",
+                            minlength: "La constraseña no puede ser menor a 6 caracteres."
+                        }
+                    }
+                });
+                //Validacion del Formulario de Registro
+                $("#registroForm").validate({
+                    rules: {
+                        nombre: {
+                            required: true,
+                            minlength: 2
+                        },
+                        apell_pat: {
+                            required: true,
+                            minlength: 2
+                        },
+                        apell_mat: {
+                            required: true,
+                            minlength: 2
+                        },
+                        usuario: {
+                            required: true,
+                             minlength: 5
+                        },
+                        password: {
+                            required: true,
+                            minlength: 8
+                        },
+                        email: {
+                            required: true,
+                            minlength: 6
+                        }          
+                    },
+                   messages: {
+                        nombre: {
+                            required: "Ingresa la nombre por favor",
+                            minlength: "El nmobre no puede ser menor a 2 caracteres."
+                        },
+                        apell_pat: {
+                            required: "Ingresa apellido paterno por favor",
+                            minlength: "El apellido paterno no puede ser menor a 2 caracteres."
+                        },
+                        apell_mat: {
+                            required: "Ingresa apellido materno  por favor",
+                            minlength: "El apellido materno no puede ser menor a 2 caracteres."
+                        },
+                        usuario: {
+                            required: "Ingresa tú usuario por favor",
+                            minlength: "El usuario no puede ser menor a 5 caracteres."
+                        },
+                        password: {
+                            required: "Ingresa tú contraseña por favor",
+                            minlength: "La contraseña no puede ser menor a 8 caracteres."
+                        },
+                        email: {
+                            required: "Ingresa un correo electronico por favor",
+                            minlength: "El correo electronico no puede ser menor a 6 caracteres."
+                        }
+                    }
+                });
+            });
 
+//            function validarUsuario() {
+//                $.ajax({
+//                    url: 'app/control/usuarioDisponible.php',
+//                    type: 'POST',
+//                    data: 'usuario=' + $("#usuario").val(),
+//                    success: function(data) {
+//                        var html;
+//                        //called when successful
+//                        if (data === "true") {
+//                            html = "<p>Nombre de usuaria disponible</p><img src='images/checked.gif'/>";
+//                            $("#usuarioValidacion").val(true);
+//                        } else {
+//                            html = "<p>Nombre de usuaria no disponible</p><img src='images/unchecked.gif'/>";
+//                            $("#usuarioValidacion").val(false);
+//                        }
+//                        $('#usarioDispoble').html(html);
+//                    },
+//                    error: function(e) {
+//                        //called when there is an error
+//                        //console.log(e.message);
+//                    }
+//                });
+//            }
+
+//            function validarCorreo() {
+//                $.ajax({
+//                    url: 'app/control/correoDisponible.php',
+//                    type: 'POST',
+//                    data: 'email=' + $("#email").val(),
+//                    success: function(data) {
+//                        var html;
+//                        //called when successful
+//                        if (data === "true") {
+//                            html = "<img src='images/checked.gif'/>";
+//                            $("#correoValidacion").val(true);
+//                        } else {
+//                            html = "<p>Correo ya registrado</p><img src='images/unchecked.gif'/>";
+//                            $("#correoValidacion").val(false);
+//                        }
+//                        $('#correoDispoble').html(html);
+//                    },
+//                    error: function(e) {
+//                        //called when there is an error
+//                        //console.log(e.message);
+//                    }
+//                });
+//            }
+        </script>
+    
+    
 </head>
 <body>
     <div class="header">
@@ -49,8 +180,8 @@ and open the template in the editor.
                 <div class="header_top_right">
                     <div class="search_box">
                         <span>Buscar</span>
-                        <form>
-                            <input type="text" value=""><input type="submit" value="">
+                        <form id="loginForm">
+                            <input type="text" id="buscar" value=""><input type="submit" value="">
                         </form>
                         <div class="clear"></div>
                     </div>
@@ -65,7 +196,7 @@ and open the template in the editor.
                                     <h4 class="modal-title" style="text-align: center;" id="ModalLabel">Inicio de sesión</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <Form action="../controlador/loginSys.php" method="POST">
+                                    <Form id="loginForm" action="../controlador/loginSys.php" method="POST">
                                         <div class="form-group">
                                             <label for="usuario">Usuario</label>
                                             <input class="form-control" type="text" id="userLogin" name="userLogin" placeholder="Usuario"></input>
@@ -73,7 +204,7 @@ and open the template in the editor.
                                         <br>
                                         <div class="form-group">
                                             <label for="password">Contraseña</label>
-                                            <input class="form-control" type="password" id="passlogin" name="passlogin" placeholder="password"></input>
+                                            <input class="form-control" type="password" id="passLogin" name="passlogin" placeholder="password"></input>
                                         </div>
                                         <br>
                                         <div class="modal-footer">
@@ -99,7 +230,7 @@ and open the template in the editor.
 
                                 <div class="modal-body">
 
-                                    <Form action="../controlador/registSys.php" method="POST">
+                                    <Form id="registroForm" action="../controlador/registSys.php" method="POST">
 
                                         <div class="form-group">
                                             <label for="nombre">Nombre</label>

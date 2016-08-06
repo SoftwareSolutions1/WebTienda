@@ -1,3 +1,18 @@
+<?php
+session_start();
+if (empty($_SESSION['id_usuario'])) {
+    header('Location: index.php');
+} else {
+    $id = $_SESSION['id_usuario'];
+    include_once '../controlador/getSuscriptor.php';
+    include_once '../utils/StringUtils.php';
+
+    $getSuscriptor = new GetSuscriptor();
+    $stringUtils = new StringUtils();
+    $usuario = $getSuscriptor->getSuscriptorDTO($id);
+    //  echo print_r("Si imprime");
+}
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -31,15 +46,15 @@ and open the template in the editor.
                     <div>
                          <form action="../controlador/cerrarSession.php">
                         <button type="submit" class="mybutton" >
-                            Log out
+                            Cerrar sesión.
                            
                         </button>
                              </form>
                     </div>
                 </div>
                 <div class="header_top_right">
-                    <div class="slider-text">
-                        <h2>Bienvenido</h2>
+                    <div style="font-size: 25px; color:#e44f2b;margin-top: 0px; font-weight: normal; ">
+                        <h2>Bienvenid@ Administrador.  <?php echo $usuario->nombre ?>   .</h2>
                     </div>
                     <div class="clear"></div>
                 </div>

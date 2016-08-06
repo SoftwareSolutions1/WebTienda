@@ -1,5 +1,4 @@
 <?php
-
 include '../utils/ArrayUtils.php';
 include_once '../modelo/dao/UsuarioDAO.php';
 include_once '../modelo/dto/UsuarioDTO.php';
@@ -33,23 +32,26 @@ foreach ($datos as $key => $val) {
     }
 }
 /* observar el comportamineto de las consultas desde el usuarioDAO */
-$id_cliente = $usuarioDAO->getIdSuscriptor();
-$usuario->__set("id_usuario", $id_cliente);
-$userLogin ->__set("id_usuario",$id_cliente);
+$id_usuario = $usuarioDAO->getIdSuscriptor();
+$usuario->__set("id_usuario", $id_usuario);
+$userLogin->__set("id_usuario", $id_usuario);
 //echo "El id es:  $id_cliente";
 //echo print_r($userLogin);
 $status = $usuarioDAO->insertarDatos($usuario);
+$statusLogin = $userLoginDAO->insertarDatosLogin($userLogin);
+//echo print_r($statusLogin);
 
-$statusLogin = $userLoginDAO -> insertarDatosLogin($userLogin);
-echo print_r($statusLogin);
-    
-    if ($status) {
-        $data = array(
-            'id' => $id_cliente
-        );
-        header("Location: ../vista/indexingreso.php");
-        exit;
-    }
+if ($status) {
+    $base = '../vista/indexingreso.php';
+    $url = $base;
+    session_start();
+    $_SESSION['id_usuario'] = $id_usuario;
+    //echo print_r($id_suscriptor);
+    header("Location: $url");
+
+
+    exit;
+}
 
 
 /* 

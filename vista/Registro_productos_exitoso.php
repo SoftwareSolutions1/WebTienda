@@ -49,125 +49,6 @@ and open the template in the editor.
             });
         </script>
         <script src="js/star-rating.js" type="text/javascript"></script>
-        
-        <script type="text/javascript">
-            $(function() {
-                //Validacion del Formulario de Registro
-                $("#registroArticuloForm").validate({
-                    rules: {
-                        codigo: {
-                            required: true,
-                            minlength: 2
-                        },
-                        nombre: {
-                            required: true,
-                            minlength: 2
-                        },
-                        cantidad: {
-                            required: true,
-                            minlength: 2
-                        },
-                        pesoEnvio: {
-                            required: true,
-                        },
-                        modelo: {
-                            required: true,
-                        },
-                        version: {
-                            required: true,
-                        },
-                        descripcion: {
-                            required: true,
-                            minlength: 6
-                        },
-                        codigoProducto: {
-                            required: true,
-                            minlength: 2
-                        }
-                    },
-                   messages: {
-                        codigo: {
-                            required: "Ingresa el codigo por favor",
-                            minlength: "El codigo no puede ser menor a 2 caracteres."
-                        },
-                        nombre: {
-                            required: "Ingresa la nombre por favor",
-                            minlength: "El nmobre no puede ser menor a 2 caracteres."
-                        },
-                        cantidad: {
-                            required: "Este campo no puede estar vacio",
-                            minlength: "El este campo no puede ser menor a 2 caracteres."
-                        },
-                        pesoEnvio: {
-                            required: "Este campo no puede estar vacio",
-                        },
-                        modelo: {
-                            required: "Ingresa el modelo por favor",
-                        },
-                        version: {
-                            required: "Ingresa un correo electronico por favor",
-                        },
-                        descripcion: {
-                            required: "Ingresa Descripción de producto por favor",
-                            minlength: "La contraseña no puede ser menor a 6 caracteres."
-                        },                  
-                        codigoProducto: {
-                            required: "Ingresa el codigo del producto por favor",
-                            minlength: "el codigo no puede ser menor a 2 caracteres."
-                        },
-                    }
-                });
-            });
-
-//            function validarUsuario() {
-//                $.ajax({
-//                    url: 'app/control/usuarioDisponible.php',
-//                    type: 'POST',
-//                    data: 'usuario=' + $("#usuario").val(),
-//                    success: function(data) {
-//                        var html;
-//                        //called when successful
-//                        if (data === "true") {
-//                            html = "<p>Nombre de usuaria disponible</p><img src='images/checked.gif'/>";
-//                            $("#usuarioValidacion").val(true);
-//                        } else {
-//                            html = "<p>Nombre de usuaria no disponible</p><img src='images/unchecked.gif'/>";
-//                            $("#usuarioValidacion").val(false);
-//                        }
-//                        $('#usarioDispoble').html(html);
-//                    },
-//                    error: function(e) {
-//                        //called when there is an error
-//                        //console.log(e.message);
-//                    }
-//                });
-//            }
-
-//            function validarCorreo() {
-//                $.ajax({
-//                    url: 'app/control/correoDisponible.php',
-//                    type: 'POST',
-//                    data: 'email=' + $("#email").val(),
-//                    success: function(data) {
-//                        var html;
-//                        //called when successful
-//                        if (data === "true") {
-//                            html = "<img src='images/checked.gif'/>";
-//                            $("#correoValidacion").val(true);
-//                        } else {
-//                            html = "<p>Correo ya registrado</p><img src='images/unchecked.gif'/>";
-//                            $("#correoValidacion").val(false);
-//                        }
-//                        $('#correoDispoble').html(html);
-//                    },
-//                    error: function(e) {
-//                        //called when there is an error
-//                        //console.log(e.message);
-//                    }
-//                });
-//            }
-        </script>
-        
     </head>
     <body>
         <div class="header">
@@ -288,7 +169,7 @@ and open the template in the editor.
                     <section class="main row">
                         <div class="col-md-6">
 
-                            <form role="form" id="registroArticuloForm" action="../controlador/registArtiSys.php" method="POST">
+                            <form role="form" action="../controlador/registArtiSys.php" method="POST">
 
                                 <div class="form-group">
                                     <label for="option" class="control-label">Selecciona una categoría</label>
@@ -351,18 +232,17 @@ and open the template in the editor.
                                     <p>Verificar los campos antes de esta acción.</p>
                                 </div>
                             </form>
-                            <div class="pull-right">
-                                <form action="../vista/index.php">
+                            <div class="pull-right"><form action="../vista/index.php">
                                     <button  type="submit"  class="btn btn-default active">Salir</button>
-                                    </form>
+                                </form>
                             </div>
                         </div>
 
                         <div class="col-md-6">
 
                             <article>
-                                <img src="images/products-icon.png"  class="img-responsive center-block" alt="" >
-
+                                <img src="images/Icono_paloma_verde.png"  class="img-responsive center-block" alt="" >
+                                <h4>.........................................................Producto registrado con exito............................................</h4  >
                             </article>
 
 
