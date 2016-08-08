@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dao/ArticuloDAO.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/dao/UsuarioDAO.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/controlador/registArtiSys.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/vista/Registro_productos.php</file>
-            <file>file:/C:/xampp/htdocs/WebTienda/modelo/db/dbConexion.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/indexAdmin.php</file>
+            <file>file:/C:/xampp/htdocs/WebTienda/vista/contact.php</file>
             <file>file:/C:/xampp/htdocs/WebTienda/vista/index.php</file>
         </group>
     </open-files>
