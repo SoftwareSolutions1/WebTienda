@@ -69,107 +69,107 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="clear"></div>
             </div>     
             <div class="navigation">
-                <a class="toggleMenu" href="#">Menu</a>
-                <ul class="nav">
+        <a class="toggleMenu" href="#">Menu</a>
+        <ul class="nav">
+            <li>
+                <a href="index.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a> 
+            </li>
+            <li  class="test">
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cómputo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
                     <li>
-                        <a href="index.php"> . . . . . .  .Inicio . . . . . . .</a> 
-                    </li>
-                    <li  class="test">
-                        <a href="#"> . . . . . .  .Cómputo . . . . . . .</a>
+                        <a href="#"><font color="black">Laptop</font></a>
                         <ul>
-                            <li>
-                                <a href="#">Laptop</a>
-                                <ul>
-                                    <li><a href="Lenovo.php">Lenovo</a></li>
-                                    <li><a href="Hp.php">HP</a></li>
-                                    <li><a href="Mac.php">MAC</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Tablets</a>
-                                <ul>
-                                    <li><a href="Ipads.php">IPADS</a></li>
-                                    <li><a href="Androidtabs.php">Android</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a>Monitores</a>
-                                <ul>
-                                    <li><a href="Monhp.php">HP</a></li>
-                                    <li><a href="Monlg.php">LG</a></li>
-                                    <li><a href="Monacer.php">Acer</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="Lenovo.php"><font color="black">Lenovo</font></a></li>
+                            <li><a href="Hp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Mac.php"><font color="black">MAC</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Impresion . . . . . . .</a>
+                        <a href="#"><font color="black">Tablets</font></a>
                         <ul>
-                            <li>
-                                <a href="#">Laser</a>
-                                <ul>
-                                    <li><a href="Laserhp.php">HP</a></li>
-                                    <li><a href="Laserbrother.php">Brother</a></li>
-                                    <li><a href="Laserdell.php">Dell</a></li>
-                                    <li><a href="Laserepson.php">Epson</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Inyección de tinta</a>
-                                <ul>
-                                    <li><a href="Tintahp.php">HP</a></li>
-                                    <li><a href="Tintacanon.php">Canon</a></li>
-                                    <li><a href="Tintaepson.php">Epson</a></li>
-
-                                </ul>
-                            </li>
+                            <li><a href="Ipads.php"><font color="black">IPADS</font></a></li>
+                            <li><a href="Androidtabs.php"><font color="black">Android</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Gamers . . . . . . .</a>
+                        <a><font color="black">Monitores</font></a>
                         <ul>
-                            <li><a href="Consolas.php">Consolas</a></li>
-                            <li><a href="Videojuegos.php">Videojuegos</a></li>
+                            <li><a href="Monhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Monlg.php"><font color="black">LG</font></a></li>
+                            <li><a href="Monacer.php"><font color="black">Acer</font></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Impresión &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
+                    <li>
+                        <a href="#"><font color="black">Laser</font></a>
+                        <ul>
+                            <li><a href="Laserhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Laserbrother.php"><font color="black">Brother</font></a></li>
+                            <li><a href="Laserdell.php"><font color="black">Dell</font></a></li>
+                            <li><a href="Laserepson.php"><font color="black">Epson</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . .  . . Software . . . . . . .</a>
+                        <a href="#"><font color="black">Inyección de tinta</font></a>
                         <ul>
-                            <li>
-                                <a href="#">Windows</a>
-                                <ul>
-                                    <li><a href="Office.php">Office365</a></li>
-                                    <li><a href="Licenciaswindows.php">Licencias</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Antivirus</a>
-                                <ul>
-                                    <li><a href="Antivirus.php">Descargas</a></li>
-                                    <li><a href="Licenciasantivirus.php">Licencias</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="Tintahp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Tintacanon.php"><font color="black">Canon</font></a></li>
+                            <li><a href="Tintaepson.php"><font color="black">Epson</font></a></li>
 
                         </ul>
                     </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Gamers  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
+                    <li><a href="Consolas.php"><font color="black">Consolas</font></a></li>
+                    <li><a href="Videojuegos.php"><font color="black">Videojuegos</font></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Software &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
                     <li>
-                        <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
+                        <a href="#"><font color="black">Windows</font></a>
                         <ul>
-
+                            <li><a href="Office.php"><font color="black">Office365</font></a></li>
+                            <li><a href="Licenciaswindows.php"><font color="black">Licencias</font></a></li>
+                        </ul>
                     </li>
-
+                    <li>
+                        <a href="#"><font color="black">Antivirus</font></a>
+                        <ul>
+                            <li><a href="Antivirus.php"><font color="black">Descargas</font></a></li>
+                            <li><a href="Licenciasantivirus.php"><font color="black">Licencias</font></a></li>
+                        </ul>
                     </li>
 
                 </ul>
-                </li>
+            </li>
+            <li>
+                <a href="Soporte.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Soporte &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
+                <ul>
 
-                <li>
-                    <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
-                </li>
-                </ul>
-                <span class="left-ribbon"> </span> 
-                <span class="right-ribbon"> </span>    
-            </div>
+            </li>
+
+            </li>
+
+        </ul>
+        </li>
+
+        <li>
+                <a href="contact.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contactanos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
+        </li>
+        </ul>
+        <span class="left-ribbon"> </span> 
+        <span class="right-ribbon"> </span>    
+    </div>
         </div>
     </div>
     <!------------End Header ------------>
@@ -180,8 +180,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="cont-desc span_1_of_2">
                         <ul class="back-links">
                             <li><a href="#">Inicio</a> ::</li>
-                            <li><a href="#">Pagina del producto </a> ::</li>
-                            <li>Nobre del producto</li>
+                            <li><a href="#">HP </a> ::</li>
+                            <li>Lenovo SPECTRE 13.3</li>
                             <div class="clear"> </div>
                         </ul>
                         <div class="product-details">	
@@ -189,35 +189,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <ul id="etalage">
                                     <li>
                                         <a href="optionallink.html">
-                                            <img class="etalage_thumb_image" src="images/preview-small-img1.png" />
-                                            <img class="etalage_source_image" src="images/preview-large-img1.jpg" title="" />
+                                            <img class="etalage_thumb_image" src="images/HP/PRODUCTO 29/HPSX360-small-4.png" />
+                                            <img class="etalage_source_image" src="images/HP/PRODUCTO 29/HPSX360-large-4.png" title="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="images/preview-small-img2.png"  />
-                                        <img class="etalage_source_image" src="images/preview-large-img2.jpg" title="" />
+                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 29/HPSX360-small-2.png"  />
+                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 29/HPSX360-large-2.png" title="" />
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="images/preview-small-img3.png"  />
-                                        <img class="etalage_source_image" src="images/preview-large-img3.jpg" />
+                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 29/HPSX360-small-3.png"  />
+                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 29/HPSX360-large-3.png" />
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="images/preview-small-img4.png" />
-                                        <img class="etalage_source_image" src="images/preview-large-img4.jpg" />
+                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 29/HPSX360-small-1.png" />
+                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 29/HPSX360-large-1.png" />
                                     </li>
                                 </ul>
                             </div>
                             <div class="desc span_3_of_2">
-                                <h2>Whirlpool LTE5243D 3.4 CuFt.... </h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>					
+                                <h2>Lenovo SPECTRE 13.3</h2>
+                                <p>Intel Core i5-6200 2.8 GHz, WINDOWS 10, BLUETOOTH..</p>					
                                 <div class="price">
-                                    <p>Precio: <span>$839.93</span></p>
+                                    <p>Precio: <span>$14,000</span></p>
                                 </div>
                                 <div class="available">
                                     <ul>
-                                        <li><span>Modelo:</span> &nbsp; Modelo 1</li>
-                                        <li><span>Peso para el envío:</span>&nbsp; 75.58 kg</li>
-                                        <li><span>Unidades en Stock:</span>&nbsp; 566</li>
+                                        <li><span>Modelo:</span> &nbsp; HPSX360</li>
+                                        <li><span>Peso para el envío:</span>&nbsp; 1.47 kg</li>
+                                        <li><span>Unidades en Stock:</span>&nbsp; 10</li>
                                     </ul>
                                 </div>
                                 <div class="share-desc">
@@ -234,17 +234,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     </ul>
                                 </div>
                                 <div class="colors-share">
-                                    <div class="color-types">
-                                        <h4>Colores disponibles</h4>
-                                        <form class="checkbox-buttons">
-                                            <ul>
-                                                <li><input id="r1" name="r1" type="radio"><label for="r1" class="grey"> </label></li>
-                                                <li><input id="r2" name="r1" type="radio"><label for="r2" class="blue"> </label></li>
-                                                <li><input id="r3" name="r1" type="radio"><label class="white" for="r3"> </label></li>
-                                                <li><input id="r4" name="r1" type="radio"><label class="black" for="r4"> </label></li>
-                                            </ul>
-                                        </form>
-                                    </div>
+                                    
                                     <div class="social-share">
                                         <h4>Compartir producto</h4>
                                         <ul>
@@ -271,17 +261,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="resp-tabs-container">
                                     <div class="product-specifications">
                                         <ul>
-                                            <li><span class="specification-heading">Tipo de cuerpo</span> <span>Metal</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Spin Speed (rpm)</span> <span>0/400/800/1000/1200</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Machine weight (kg)</span> <span>75</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Wash System</span> <span>Tumble wash</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Door diameter (mm)</span> <span>300</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Dimensions (w*d*h) without packing</span> <span>595x595x850</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Power Supply</span> <span>230V, 50Hz, 16Amps</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Motor (Watts)</span> <span>440 for Wash/490 for Spin</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Drum basket</span> <span>stainless steel</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Adjustable Feet</span> <span>4 </span><div class="clear"></div></li>
-                                        </ul>
+                                            <li><span class="specification-heading">Tipo de cuerpo</span> <span>Hecho a mano con aluminio durable y fibra de carbono, este portátil increíblemente delgada redefine la perfección. teclado retroiluminado para el trackpad de vidrio</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Memoria Ram</span> <span>8 GB</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Disco Duro</span> <span>512 GB</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Procesador</span> <span>6ª generación del procesador Intel® Core ™ i</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Dimensiones</span> <span>10.4 mm | 2.45 lbs</span><div class="clear"></div></li>
+                                            </ul>
                                     </div>
 
                                     <div class="product-tags">
@@ -330,48 +315,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
+                    
                     <div class="rightsidebar span_3_of_1 sidebar">
                         <h3>productos populares</h3>
-                        <ul class="popular-products">
+                        <ul class="popular-products">                   
                             <li>
-                                <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                                <a href="preview.html"><img src="images/product-img2.jpg" alt="" /></a>
+                                <h4><a href="preview.html">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
+                                <a href="#"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
                                 <div class="price-details">
                                     <div class="price-number">
-                                        <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
+                                        <p><span class="rupees line-through">$20,599 </span> &nbsp;<span class="rupees">$19,999 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="preview.html">Mas información</a></h4>
+                                        <h4><a href="#">Mas Información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
                             </li>
                             <li>
-                                <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                                <a href="preview.html"><img src="images/product-img3.jpg" alt="" /></a>
-                                <div class="price-details">
-                                    <div class="price-number">
-                                        <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
-                                    </div>
-                                    <div class="add-cart">								
-                                        <h4><a href="preview.html">Mas información</a></h4>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>					 
+                                <h4><a href="preview.html">&nbsp;Laptop &nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SX360 &nbsp;&nbsp;&nbsp; </a></h4>
+                            <a href="#"><img src="images/banerLastProduct/HPSX360131.png" alt="" /></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees line-through">$19,599 </span><span class="rupees">$18,900</span></p>
+                                </div>
+                                <div class="add-cart">								
+                                    <h4><a href="#">Mas Información</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>					 
                             </li>
                             <li>
-                                <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                                <a href="preview.html"><img src="images/product-img4.jpg" alt="" /></a>
-                                <div class="price-details">
-                                    <div class="price-number">
-                                        <p><span class="rupees line-through">$899.95 </span> &nbsp; <span class="rupees">$839.93 </span></p>
-                                    </div>
-                                    <div class="add-cart">								
-                                        <h4><a href="preview.html">Mas información</a></h4>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>					 
+                                <h4><a href="preview.html">&nbsp;Laptop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;X3603&nbsp;&nbsp;&nbsp;</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/HPSX3603.png" alt="" /></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees line-through">$23,599 </span><span class="rupees">$22,099 </span></p>
+                                </div>
+                                <div class="add-cart">								
+                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>					 
                             </li>
                         </ul>
 
@@ -422,18 +408,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="ocarousel_slider">  
                     <div class="ocarousel example_photos" data-ocarousel-perscroll="3">
                         <div class="ocarousel_window">
-                            <a href="#" title="img1"> <img src="images/latest-product-img1.jpg" alt="" /><p>Nuncvitae</p></a>
-                            <a href="#" title="img2"> <img src="images/latest-product-img2.jpg" alt="" /><p>Suspendiss</p></a>
-                            <a href="#" title="img3"> <img src="images/latest-product-img3.jpg" alt="" /><p>Phasellus ferm</p></a>
-                            <a href="#" title="img4"> <img src="images/latest-product-img4.jpg" alt="" /><p>Veldignissim</p></a>
-                            <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>Aliquam interd</p></a>
-                            <a href="#" title="img6"> <img src="images/latest-product-img6.jpg" alt="" /><p>Sapien lectus</p></a>
-                            <a href="#" title="img1"> <img src="images/latest-product-img1.jpg" alt="" /><p>Nuncvitae</p></a>
-                            <a href="#" title="img2"> <img src="images/latest-product-img2.jpg" alt="" /><p>Suspendiss</p></a>
-                            <a href="#" title="img3"> <img src="images/latest-product-img3.jpg" alt="" /><p>Phasellus ferm</p></a>
-                            <a href="#" title="img4"> <img src="images/latest-product-img4.jpg" alt="" /><p>Veldignissim</p></a>
-                            <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>Aliquam interd</p></a>
-                            <a href="#" title="img6"> <img src="images/latest-product-img6.jpg" alt="" /><p>Sapien lectus</p></a>
+                            <a href="#" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="#" title="img2"> <img src="images/banerLastProduct/HPSX360131.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="#" title="img3"> <img src="images/banerLastProduct/HPSX360132.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="#" title="img4"> <img src="images/banerLastProduct/HPSX3603.png" alt="" /><p><font color="black">Laptop HP</font> </p></a>
+                            <a href="#" title="img5"> <img src="images/banerLastProduct/JVCLTHD.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/JVCLTHD2.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
+                            <a href="#" title="img1"> <img src="images/banerLastProduct/KDL-50W800C2.png" alt="" /><p><font color="black">Pantalla KDL</font></p></a>
+                            <a href="#" title="img2"> <img src="images/banerLastProduct/LEDTV32HD.png" alt="" /><p><font color="black">Pantalla LEDTV</font></p></a>
+                            <a href="#" title="img3"> <img src="images/banerLastProduct/LGLM76001.png" alt="" /><p><font color="black">Pantalla LG</font></p></a>
+                            <a href="#" title="img4"> <img src="images/banerLastProduct/LGLM76003.png" alt="" /><p><font color="black">Pantalla LG</font></p></a>
+                            <a href="#" title="img5"> <img src="images/banerLastProduct/OLG55SO.png" alt="" /><p><font color="black">Pantalla OLG</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/OLG55SO3.png" alt="" /><p><font color="black">Pantalla OLG</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/P55LUHD.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/P65LHD.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PL43UST2.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PSTV80002.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PSTV80003.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /><p><font color="black">Pantalla</font></p></a>
                         </div>
                         <span>           
                             <a href="#" data-ocarousel-link="left" style="float: left;" class="prev"> </a>

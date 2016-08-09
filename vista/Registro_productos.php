@@ -179,107 +179,107 @@ and open the template in the editor.
                     <div class="clear"></div>
                 </div> 
                 <div class="navigation">
-                    <a class="toggleMenu" href="#">Menu</a>
-                    <ul class="nav">
-                        <li>
-                            <a href="index.php"> . . . . . .  .Inicio . . . . . . .</a> 
-                        </li>
-                        <li  class="test">
-                            <a href="#"> . . . . . .  .Cómputo . . . . . . .</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Laptop</a>
-                                    <ul>
-                                        <li><a href="Lenovo.php">Lenovo</a></li>
-                                        <li><a href="Hp.php">HP</a></li>
-                                        <li><a href="Mac.php">MAC</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Tablets</a>
-                                    <ul>
-                                        <li><a href="Ipads.php">IPADS</a></li>
-                                        <li><a href="Androidtabs.php">Android</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a>Monitores</a>
-                                    <ul>
-                                        <li><a href="Monhp.php">HP</a></li>
-                                        <li><a href="Monlg.php">LG</a></li>
-                                        <li><a href="Monacer.php">Acer</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"> . . . . . . . Impresion . . . . . . .</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Laser</a>
-                                    <ul>
-                                        <li><a href="Laserhp.php">HP</a></li>
-                                        <li><a href="Laserbrother.php">Brother</a></li>
-                                        <li><a href="Laserdell.php">Dell</a></li>
-                                        <li><a href="Laserepson.php">Epson</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Inyección de tinta</a>
-                                    <ul>
-                                        <li><a href="Tintahp.php">HP</a></li>
-                                        <li><a href="Tintacanon.php">Canon</a></li>
-                                        <li><a href="Tintaepson.php">Epson</a></li>
-
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"> . . . . . . . Gamers . . . . . . .</a>
-                            <ul>
-                                <li><a href="Consolas.php">Consolas</a></li>
-                                <li><a href="Videojuegos.php">Videojuegos</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"> . . . . .  . . Software . . . . . . .</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Windows</a>
-                                    <ul>
-                                        <li><a href="Office.php">Office365</a></li>
-                                        <li><a href="Licenciaswindows.php">Licencias</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Antivirus</a>
-                                    <ul>
-                                        <li><a href="Antivirus.php">Descargas</a></li>
-                                        <li><a href="Licenciasantivirus.php">Licencias</a></li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
-                            <ul>
-
-                        </li>
-
-                        </li>
-
-                    </ul>
-                    </li>
-
+        <a class="toggleMenu" href="#">Menu</a>
+        <ul class="nav">
+            <li>
+                <a href="index.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a> 
+            </li>
+            <li  class="test">
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cómputo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
                     <li>
-                        <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
+                        <a href="#"><font color="black">Laptop</font></a>
+                        <ul>
+                            <li><a href="Lenovo.php"><font color="black">Lenovo</font></a></li>
+                            <li><a href="Hp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Mac.php"><font color="black">MAC</font></a></li>
+                        </ul>
                     </li>
-                    </ul>
-                    <span class="left-ribbon"> </span> 
-                    <span class="right-ribbon"> </span>    
-                </div>
+                    <li>
+                        <a href="#"><font color="black">Tablets</font></a>
+                        <ul>
+                            <li><a href="Ipads.php"><font color="black">IPADS</font></a></li>
+                            <li><a href="Androidtabs.php"><font color="black">Android</font></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a><font color="black">Monitores</font></a>
+                        <ul>
+                            <li><a href="Monhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Monlg.php"><font color="black">LG</font></a></li>
+                            <li><a href="Monacer.php"><font color="black">Acer</font></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Impresión &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
+                    <li>
+                        <a href="#"><font color="black">Laser</font></a>
+                        <ul>
+                            <li><a href="Laserhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Laserbrother.php"><font color="black">Brother</font></a></li>
+                            <li><a href="Laserdell.php"><font color="black">Dell</font></a></li>
+                            <li><a href="Laserepson.php"><font color="black">Epson</font></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><font color="black">Inyección de tinta</font></a>
+                        <ul>
+                            <li><a href="Tintahp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Tintacanon.php"><font color="black">Canon</font></a></li>
+                            <li><a href="Tintaepson.php"><font color="black">Epson</font></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Gamers  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
+                    <li><a href="Consolas.php"><font color="black">Consolas</font></a></li>
+                    <li><a href="Videojuegos.php"><font color="black">Videojuegos</font></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Software &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
+                <ul>
+                    <li>
+                        <a href="#"><font color="black">Windows</font></a>
+                        <ul>
+                            <li><a href="Office.php"><font color="black">Office365</font></a></li>
+                            <li><a href="Licenciaswindows.php"><font color="black">Licencias</font></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><font color="black">Antivirus</font></a>
+                        <ul>
+                            <li><a href="Antivirus.php"><font color="black">Descargas</font></a></li>
+                            <li><a href="Licenciasantivirus.php"><font color="black">Licencias</font></a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="Soporte.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Soporte &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
+                <ul>
+
+            </li>
+
+            </li>
+
+        </ul>
+        </li>
+
+        <li>
+                <a href="contact.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contactanos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
+        </li>
+        </ul>
+        <span class="left-ribbon"> </span> 
+        <span class="right-ribbon"> </span>    
+    </div>
             </div>
         </div>
         <div class="main">
@@ -352,7 +352,7 @@ and open the template in the editor.
                                 </div>
                             </form>
                             <div class="pull-right">
-                                <form action="../vista/index.php">
+                                <form action="../vista/indexAdmin.php">
                                     <button  type="submit"  class="btn btn-default active">Salir</button>
                                     </form>
                             </div>

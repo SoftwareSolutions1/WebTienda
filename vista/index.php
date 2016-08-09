@@ -33,14 +33,14 @@ and open the template in the editor.
                 <div class="header_top_right">
                     <div>
                         <button type="button" class="mybutton" data-toggle="modal" data-target="#ventana">
-                            Ingresa
+                            <font color="black">Ingresa</font>
                         </button>
                     </div>
                 </div>
                 <div class="header_top_right">
                     <div>
                         <button type="submit" class="mybutton " data-toggle="modal" data-target="#ventana2">
-                            Registro
+                            <font color="black">Registro</font>
                         </button>
                     </div>
                     <div class="clear"></div>
@@ -154,26 +154,26 @@ and open the template in the editor.
                 <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cómputo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                 <ul>
                     <li>
-                        <a href="#">Laptop</a>
+                        <a href="#"><font color="black">Laptop</font></a>
                         <ul>
-                            <li><a href="Lenovo.php">Lenovo</a></li>
-                            <li><a href="Hp.php">HP</a></li>
-                            <li><a href="Mac.php">MAC</a></li>
+                            <li><a href="Lenovo.php"><font color="black">Lenovo</font></a></li>
+                            <li><a href="Hp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Mac.php"><font color="black">MAC</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Tablets</a>
+                        <a href="#"><font color="black">Tablets</font></a>
                         <ul>
-                            <li><a href="Ipads.php">IPADS</a></li>
-                            <li><a href="Androidtabs.php">Android</a></li>
+                            <li><a href="Ipads.php"><font color="black">IPADS</font></a></li>
+                            <li><a href="Androidtabs.php"><font color="black">Android</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a>Monitores</a>
+                        <a><font color="black">Monitores</font></a>
                         <ul>
-                            <li><a href="Monhp.php">HP</a></li>
-                            <li><a href="Monlg.php">LG</a></li>
-                            <li><a href="Monacer.php">Acer</a></li>
+                            <li><a href="Monhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Monlg.php"><font color="black">LG</font></a></li>
+                            <li><a href="Monacer.php"><font color="black">Acer</font></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -182,20 +182,20 @@ and open the template in the editor.
                 <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Impresión &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                 <ul>
                     <li>
-                        <a href="#">Laser</a>
+                        <a href="#"><font color="black">Laser</font></a>
                         <ul>
-                            <li><a href="Laserhp.php">HP</a></li>
-                            <li><a href="Laserbrother.php">Brother</a></li>
-                            <li><a href="Laserdell.php">Dell</a></li>
-                            <li><a href="Laserepson.php">Epson</a></li>
+                            <li><a href="Laserhp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Laserbrother.php"><font color="black">Brother</font></a></li>
+                            <li><a href="Laserdell.php"><font color="black">Dell</font></a></li>
+                            <li><a href="Laserepson.php"><font color="black">Epson</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Inyección de tinta</a>
+                        <a href="#"><font color="black">Inyección de tinta</font></a>
                         <ul>
-                            <li><a href="Tintahp.php">HP</a></li>
-                            <li><a href="Tintacanon.php">Canon</a></li>
-                            <li><a href="Tintaepson.php">Epson</a></li>
+                            <li><a href="Tintahp.php"><font color="black">HP</font></a></li>
+                            <li><a href="Tintacanon.php"><font color="black">Canon</font></a></li>
+                            <li><a href="Tintaepson.php"><font color="black">Epson</font></a></li>
 
                         </ul>
                     </li>
@@ -204,25 +204,25 @@ and open the template in the editor.
             <li>
                 <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Gamers  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                 <ul>
-                    <li><a href="Consolas.php">Consolas</a></li>
-                    <li><a href="Videojuegos.php">Videojuegos</a></li>
+                    <li><a href="Consolas.php"><font color="black">Consolas</font></a></li>
+                    <li><a href="Videojuegos.php"><font color="black">Videojuegos</font></a></li>
                 </ul>
             </li>
             <li>
                 <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Software &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                 <ul>
                     <li>
-                        <a href="#">Windows</a>
+                        <a href="#"><font color="black">Windows</font></a>
                         <ul>
-                            <li><a href="Office.php">Office365</a></li>
-                            <li><a href="Licenciaswindows.php">Licencias</a></li>
+                            <li><a href="Office.php"><font color="black">Office365</font></a></li>
+                            <li><a href="Licenciaswindows.php"><font color="black">Licencias</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Antivirus</a>
+                        <a href="#"><font color="black">Antivirus</font></a>
                         <ul>
-                            <li><a href="Antivirus.php">Descargas</a></li>
-                            <li><a href="Licenciasantivirus.php">Licencias</a></li>
+                            <li><a href="Antivirus.php"><font color="black">Descargas</font></a></li>
+                            <li><a href="Licenciasantivirus.php"><font color="black">Licencias</font></a></li>
                         </ul>
                     </li>
 
@@ -273,18 +273,24 @@ and open the template in the editor.
                 <div class="ocarousel_slider">  
                     <div class="ocarousel example_photos" data-ocarousel-perscroll="3">
                         <div class="ocarousel_window">
-                            <a href="#" title="img1"> <img src="images/latest-product-img1.jpg" alt="" /><p>Laptop</p></a>
-                            <a href="#" title="img2"> <img src="images/latest-product-img2.jpg" alt="" /><p>Tablet</p></a>
-                            <a href="#" title="img3"> <img src="images/latest-product-img3.jpg" alt="" /><p>Monitores</p></a>
-                            <a href="#" title="img4"> <img src="images/latest-product-img4.jpg" alt="" /><p>impresoras laser</p></a>
-                            <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>impresoras inyección</p></a>
-                            <a href="#" title="img6"> <img src="images/latest-product-img6.jpg" alt="" /><p>Consolas</p></a>
-                            <a href="#" title="img1"> <img src="images/latest-product-img1.jpg" alt="" /><p>Video juegos</p></a>
-                            <a href="#" title="img2"> <img src="images/latest-product-img2.jpg" alt="" /><p>offcie 365</p></a>
-                            <a href="#" title="img3"> <img src="images/latest-product-img3.jpg" alt="" /><p>Licencias</p></a>
-                            <a href="#" title="img4"> <img src="images/latest-product-img4.jpg" alt="" /><p>antivirus</p></a>
-                            <a href="#" title="img5"> <img src="images/latest-product-img5.jpg" alt="" /><p>Descarga software gratuito</p></a>
-                            <a href="#" title="img6"> <img src="images/latest-product-img6.jpg" alt="" /><p>Soporte</p></a>
+                            <a href="Hp.php" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="Mac.php" title="img2"> <img src="images/banerLastProduct/HPSX360131.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="#" title="img3"> <img src="images/banerLastProduct/HPSX360132.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="Lenovo.php" title="img4"> <img src="images/banerLastProduct/HPSX3603.png" alt="" /><p><font color="black">Laptop HP</font> </p></a>
+                            <a href="#" title="img5"> <img src="images/banerLastProduct/JVCLTHD.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/JVCLTHD2.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
+                            <a href="#" title="img1"> <img src="images/banerLastProduct/KDL-50W800C2.png" alt="" /><p><font color="black">Pantalla KDL</font></p></a>
+                            <a href="#" title="img2"> <img src="images/banerLastProduct/LEDTV32HD.png" alt="" /><p><font color="black">Pantalla LEDTV</font></p></a>
+                            <a href="#" title="img3"> <img src="images/banerLastProduct/LGLM76001.png" alt="" /><p><font color="black">Pantalla LG</font></p></a>
+                            <a href="#" title="img4"> <img src="images/banerLastProduct/LGLM76003.png" alt="" /><p><font color="black">Pantalla LG</font></p></a>
+                            <a href="#" title="img5"> <img src="images/banerLastProduct/OLG55SO.png" alt="" /><p><font color="black">Pantalla OLG</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/OLG55SO3.png" alt="" /><p><font color="black">Pantalla OLG</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/P55LUHD.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/P65LHD.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PL43UST2.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PSTV80002.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/PSTV80003.png" alt="" /><p><font color="black">Pantalla</font></p></a>
+                            <a href="#" title="img6"> <img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /><p><font color="black">Pantalla</font></p></a>
                         </div>
                         <span>           
                             <a href="#" data-ocarousel-link="left" style="float: left;" class="prev"> </a>
@@ -299,9 +305,9 @@ and open the template in the editor.
                 <div class="content-bottom-left">
                     <div class="categories">
                         <ul>
-                            <h3>Navegar en todas las categorías</h3>
+                            <h3><font color="black">Navegar en todas las categorías</font></h3>
                             <li><a href="index.php">Inicio</a></li>
-                            <li><a href="#">Computo</a></li>
+                            <li><a href="index.php">Computo</a></li>
                             <li><a href="#">Impresión</a></li>
                             <li><a href="#">Gamers</a></li>
                             <li><a href="#">Software</a></li>
@@ -312,7 +318,7 @@ and open the template in the editor.
                         </ul>
                     </div>		
                     <div class="buters-guide">
-                        <h3>Guía de compradores</h3>
+                        <h3><font color="black">Guía de compradores</font></h3>
                         <p><span>Queremos que usted esté satisfecho con su compra.</span></p>	
                         <p>Por lo que estamos comprometidos a darle todas las herramientas necesarias para tomar la decisión correcta con el mínimo esfuerzo. </p>
                     </div>	
@@ -320,7 +326,7 @@ and open the template in the editor.
                         <img src="images/camera.png" alt="" />
                         <div class="banner-desc">
                             <h4>Electronicos</h4>
-                            <a href="#">Mas iformación</a>
+                            <a href="#"><font color="black">Mas iformación</font></a>
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -338,55 +344,55 @@ and open the template in the editor.
                     <h3>Navegar en todas las categorías</h3>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img1.jpg" alt="" /></a>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
-                                </div>
-                                <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>					 
-                        </div>
+                            <h4><a href="Hp.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
+                                <a href="HP.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
+                                <div class="price-details">
+                                    <div class="price-number">
+                                        <p><span class="rupees">$19,999 </span></p>
+                                    </div>
+                                    <div class="add-cart">								
+                                        <h4><a href="HP.php">Mas Información</a></h4>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>					 
+                            </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img2.jpg" alt="" /></a>
+                            <h4><a href="Mac.php">&nbsp;Laptop &nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SX360 &nbsp;&nbsp;&nbsp; </a></h4>
+                            <a href="Mac.php"><img src="images/banerLastProduct/HPSX360131.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$18,900</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="Mac.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img3.jpg" alt="" /></a>
+                            <h4><a href="Lenovo.php">&nbsp;Laptop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;X3603&nbsp;&nbsp;&nbsp;</a></h4>
+                            <a href="Lenovo.php"><img src="images/banerLastProduct/HPSX3603.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$22,099 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="Lenovo.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img4.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JVCL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD </a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/JVCLTHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$3,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -394,55 +400,55 @@ and open the template in the editor.
                     </div>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img1.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCL - LED 32D3260&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$4,199</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img2.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philips Smart TV Serie 8000 3D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/PSTV80003.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$9,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img3.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla Led 43" Uhd Smart Tv 43Uf6900</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/PL43UST3.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$13,699</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img4.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla 65" Led Ultra Hd 65H7B</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/P65LHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$84,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -450,55 +456,55 @@ and open the template in the editor.
                     </div>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img1.jpg" alt="" /></a>
+                            <h4><a href="preview.html">LG LM7600 Cinema Screen - Smart 3D</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/LGLM76001.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$18,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img2.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Oled Lg 55 4K Smart Oled 55B6P</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/OLG55SO.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$74,999</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img3.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Pantalla 55" Led Ultra Hd 55H9</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/P55LUHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$35,000</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
-                            <a href="preview.html"><img src="images/product-img4.jpg" alt="" /></a>
+                            <h4><a href="preview.html">Led Full HD 3D Smart con Android TV W80C</a></h4>
+                            <a href="preview.html"><img src="images/banerLastProduct/KDL-50W800C2.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
-                                    <p><span class="rupees">$839.93 </span></p>
+                                    <p><span class="rupees">$11,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">More Info</a></h4>
+                                    <h4><a href="preview.html">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -510,14 +516,14 @@ and open the template in the editor.
                             <li>
                                 <div class="article">
                                     <p><span>Aenean vitae massa dolor</span></p>
-                                    <p>Phasellus in quam dui. Nunc ornare, tellus rutrum porttitor imperdiet, dui leo molestie nisl, sit amet dignissim nibh magna pharetra quam. Nunc ultrices pellentesque massa, ac adipiscing dui rutrum id. In cursus augue non erat faucibus eu condimentum dolor molestie.</p>
+                                    <p>Esta pagina contiene derechos reservados por nuestro cliente para la proteccion de su informacion........</p>
                                     <p><a href="#">+ Ler articulo completo aqui.</a></p>
                                 </div>
                             </li>
                             <li>
                                 <div class="article">
                                     <p><span>Phasellus sollicitudin consectetur</span></p>
-                                    <p>Cras aliquam, odio ac consectetur tincidunt, eros nunc fermentum augue, quis rutrum ante lectus ac lectus. Fusce sed tellus orci, et feugiat urna. Integer et dictum leo. Nulla consectetur tempus orci sed consequat. Mauris cursus est a sapien venenatis faucibus. Etiam sagittis convallis volutpat.</p>
+                                    <p>Puede obtener nuestros temrins de uso y condifionces asi como la ´politoca privacidad para su seguirad.........</p>
                                     <p><a href="#">+ Ler articulo completo aqui.</a></p>
                                 </div>
                             </li>
