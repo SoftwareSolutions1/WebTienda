@@ -180,7 +180,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="cont-desc span_1_of_2">
                         <ul class="back-links">
                             <li><a href="#">Inicio</a> ::</li>
-                            <li><a href="#">HP </a> ::</li>
+                            <li><a href="#">Computo</a> ::</li>
                             <li>HP SPECTRE 13.3</li>
                             <div class="clear"> </div>
                         </ul>

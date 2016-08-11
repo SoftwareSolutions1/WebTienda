@@ -180,7 +180,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="cont-desc span_1_of_2">
                         <ul class="back-links">
                             <li><a href="#">Inicio</a> ::</li>
-                            <li><a href="#">HP </a> ::</li>
+                            <li><a href="#">Computo</a> ::</li>
                             <li>Lenovo SPECTRE 13.3</li>
                             <div class="clear"> </div>
                         </ul>
@@ -321,40 +321,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h3>productos populares</h3>
                         <ul class="popular-products">                   
                             <li>
-                                <h4><a href="preview.html">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
-                                <a href="#"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
+                                <h4><a href="Hp.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
+                                <a href="Hp.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
                                 <div class="price-details">
                                     <div class="price-number">
                                         <p><span class="rupees line-through">$20,599 </span> &nbsp;<span class="rupees">$19,999 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="#">Mas Información</a></h4>
+                                        <h4><a href="Hp.php">Mas Información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
                             </li>
                             <li>
-                                <h4><a href="preview.html">&nbsp;Laptop &nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SX360 &nbsp;&nbsp;&nbsp; </a></h4>
-                            <a href="#"><img src="images/banerLastProduct/HPSX360131.png" alt="" /></a>
+                                <h4><a href="Mac.php">&nbsp;Laptop &nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SX360 &nbsp;&nbsp;&nbsp; </a></h4>
+                            <a href="Mac.php"><img src="images/banerLastProduct/HPSX360131.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees line-through">$19,599 </span><span class="rupees">$18,900</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="#">Mas Información</a></h4>
+                                    <h4><a href="Mac.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 
                             </li>
                             <li>
-                                <h4><a href="preview.html">&nbsp;Laptop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;X3603&nbsp;&nbsp;&nbsp;</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/HPSX3603.png" alt="" /></a>
+                                <h4><a href="Lenovo.php">&nbsp;Laptop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HP&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;X3603&nbsp;&nbsp;&nbsp;</a></h4>
+                            <a href="Lenovo.php"><img src="images/banerLastProduct/HPSX3603.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees line-through">$23,599 </span><span class="rupees">$22,099 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="Lenovo.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 

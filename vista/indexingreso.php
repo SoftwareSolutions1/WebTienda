@@ -75,7 +75,7 @@ and open the template in the editor.
                         <a href="#"><font color="black">Laptop</font></a>
                         <ul>
                             <li><a href="Lenovo.php"><font color="black">Lenovo</font></a></li>
-                            <li><a href="Hp.php"><font color="black">HP</font></a></li>
+                            <li><a href="hp.php"><font color="black">HP</font></a></li>
                             <li><a href="Mac.php"><font color="black">MAC</font></a></li>
                         </ul>
                     </li>
@@ -188,7 +188,7 @@ and open the template in the editor.
                 <div class="ocarousel_slider">  
                     <div class="ocarousel example_photos" data-ocarousel-perscroll="3">
                         <div class="ocarousel_window">
-                            <a href="HP.php" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="hp.php" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="Mac.php" title="img2"> <img src="images/banerLastProduct/HPSX360131.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="#" title="img3"> <img src="images/banerLastProduct/HPSX360132.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="Lenovo.php" title="img4"> <img src="images/banerLastProduct/HPSX3603.png" alt="" /><p><font color="black">Laptop HP</font> </p></a>
@@ -259,14 +259,14 @@ and open the template in the editor.
                     <h3>Navegar en todas las categorías</h3>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                                <h4><a href="HP.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
-                                <a href="Hp.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
+                                <h4><a href="hp.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
+                                <a href=hp.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
                                 <div class="price-details">
                                     <div class="price-number">
                                         <p><span class="rupees">$19,999 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="Hp.php">Mas Información</a></h4>
+                                        <h4><a href="hp.php">Mas Información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
@@ -313,57 +313,59 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
+                    
+                    
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCL - LED 32D3260&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /></a>
+                            <h4><a href="pantalla_TLLCD4000.php">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCL - LED 32D3260&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="pantalla_TLLCD4000.php"><img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$4,199</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_TLLCD4000.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philips Smart TV Serie 8000 3D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/PSTV80003.png" alt="" /></a>
+                            <h4><a href="pantalla_PSTV8000.php">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philips Smart TV Serie 8000 3D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="pantalla_PSTV8000.php"><img src="images/banerLastProduct/PSTV80003.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$9,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_PSTV8000.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla Led 43" Uhd Smart Tv 43Uf6900</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/PL43UST3.png" alt="" /></a>
+                            <h4><a href="pantalla_PL43UST.php">Pantalla Led 43" Uhd Smart Tv 43Uf6900</a></h4>
+                            <a href="pantalla_PL43UST.php"><img src="images/banerLastProduct/PL43UST3.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$13,699</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_PL43UST.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla 65" Led Ultra Hd 65H7B</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/P65LHD.png" alt="" /></a>
+                            <h4><a href="pantalla_P65LHD.php">Pantalla 65" Led Ultra Hd 65H7B</a></h4>
+                            <a href="pantalla_P65LHD.php"><img src="images/banerLastProduct/P65LHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$84,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_P65LHD.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>

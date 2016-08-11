@@ -181,7 +181,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <ul class="back-links">
                             <li><a href="#">Inicio</a> ::</li>
                             <li><a href="#">Computo</a> ::</li>
-                            <li>Lenovo SPECTRE 13.3</li>
+                            <li>JVC - LT 32DR530 FULL HD</li>
                             <div class="clear"> </div>
                         </ul>
                         <div class="product-details">	
@@ -189,34 +189,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <ul id="etalage">
                                     <li>
                                         <a href="optionallink.html">
-                                            <img class="etalage_thumb_image" src="images/HP/PRODUCTO 30/HPSX36013-small-1.png" />
-                                            <img class="etalage_source_image" src="images/HP/PRODUCTO 30/HPSX36013-large-1.png" title="" />
+                                            <img class="etalage_thumb_image" src="images/JVC/PRODUCTO 11/JVCLTHD-small-1.jpg" />
+                                            <img class="etalage_source_image" src="images/JVC/PRODUCTO 11/JVCLTHD-large-1.jpg" title="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 30/HPSX36013-small-2.png"  />
-                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 30/HPSX36013-large-2.png" title="" />
+                                        <img class="etalage_thumb_image" src="images/JVC/PRODUCTO 11/JVCLTHD1-small-2.png"  />
+                                        <img class="etalage_source_image" src="images/JVC/PRODUCTO 11/JVCLTHD1-large-2.png" title="" />
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 30/HPSX36013-small-3.png"  />
-                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 30/HPSX36013-large-3.png" />
-                                    </li>
-                                    <li>
-                                        <img class="etalage_thumb_image" src="images/HP/PRODUCTO 30/HPSX36013-small-1.png" />
-                                        <img class="etalage_source_image" src="images/HP/PRODUCTO 30/HPSX36013-large-1.png" />
+                                        <img class="etalage_thumb_image" src="images/JVC/PRODUCTO 11/JVCLTHD1-small-3.png"  />
+                                        <img class="etalage_source_image" src="images/JVC/PRODUCTO 11/JVCLTHD1-large-3.png" />
                                     </li>
                                 </ul>
                             </div>
                             <div class="desc span_3_of_2">
-                                <h2>Lenovo SPECTRE 13.3</h2>
-                                <p>Intel Core i5-6200 2.8 GHz, WINDOWS 10, BLUETOOTH..</p>					
+                                <h2>JVC - LT 32DR530 FULL HD</h2>
+                                <p>32" - Full HD 1920 x 1080 píxeles. Posee los requisitos mínimos indispensables para la categoría, y la marca ha demostrado en toda la familia un alto rendimiento. Posee sintonizador digital de canales, tres entradas HDMI, una USB y una VGA (PC). </p>					
                                 <div class="price">
-                                    <p>Precio: <span>$14,000</span></p>
+                                    <p>Precio: <span>3,999</span></p>
                                 </div>
                                 <div class="available">
                                     <ul>
-                                        <li><span>Modelo:</span> &nbsp; HPSX360</li>
-                                        <li><span>Peso para el envío:</span>&nbsp; 1.47 kg</li>
+                                        <li><span>Modelo:</span> &nbsp; JVCLTHD</li>
+                                        <li><span>Peso para el envío:</span>&nbsp; 8 Kg</li>
                                         <li><span>Unidades en Stock:</span>&nbsp; 10</li>
                                     </ul>
                                 </div>
@@ -261,11 +257,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="resp-tabs-container">
                                     <div class="product-specifications">
                                         <ul>
-                                            <li><span class="specification-heading">Tipo de cuerpo</span> <span>Hecho a mano con aluminio durable y fibra de carbono, este portátil increíblemente delgada redefine la perfección. teclado retroiluminado para el trackpad de vidrio</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Caracteristicas de la imagen</span> <span>Full HD</span><div class="clear"></div></li>
                                             <li><span class="specification-heading">Memoria Ram</span> <span>8 GB</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Disco Duro</span> <span>512 GB</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Procesador</span> <span>6ª generación del procesador Intel® Core ™ i</span><div class="clear"></div></li>
-                                            <li><span class="specification-heading">Dimensiones</span> <span>10.4 mm | 2.45 lbs</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">SAlida de audio</span> <span>stereo, Dolby Digital</span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Entradas</span> <span>3 HDMI </span><div class="clear"></div></li>
+                                            <li><span class="specification-heading">Dimensiones</span> <span>1920 x 1080</span><div class="clear"></div></li>
                                             </ul>
                                     </div>
 

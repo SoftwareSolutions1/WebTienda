@@ -41,88 +41,88 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a class="toggleMenu" href="#">Menu</a>
                 <ul class="nav">
                     <li>
-                        <a href="index.php"> . . . . . .  .Inicio . . . . . . .</a> 
+                        <a href="index.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a> 
                     </li>
                     <li  class="test">
-                        <a href="#"> . . . . . .  .Cómputo . . . . . . .</a>
+                        <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cómputo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                         <ul>
                             <li>
-                                <a href="#">Laptop</a>
+                                <a href="#"><font color="black">Laptop</font></a>
                                 <ul>
-                                    <li><a href="Lenovo.php">Lenovo</a></li>
-                                    <li><a href="Hp.php">HP</a></li>
-                                    <li><a href="Mac.php">MAC</a></li>
+                                    <li><a href="Lenovo.php"><font color="black">Lenovo</font></a></li>
+                                    <li><a href="hp.php"><font color="black">HP</font></a></li>
+                                    <li><a href="Mac.php"><font color="black">MAC</font></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Tablets</a>
+                                <a href="#"><font color="black">Tablets</font></a>
                                 <ul>
-                                    <li><a href="Ipads.php">IPADS</a></li>
-                                    <li><a href="Androidtabs.php">Android</a></li>
+                                    <li><a href="Ipads.php"><font color="black">IPADS</font></a></li>
+                                    <li><a href="Androidtabs.php"><font color="black">Android</font></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a>Monitores</a>
+                                <a><font color="black">Monitores</font></a>
                                 <ul>
-                                    <li><a href="Monhp.php">HP</a></li>
-                                    <li><a href="Monlg.php">LG</a></li>
-                                    <li><a href="Monacer.php">Acer</a></li>
+                                    <li><a href="Monhp.php"><font color="black">HP</font></a></li>
+                                    <li><a href="Monlg.php"><font color="black">LG</font></a></li>
+                                    <li><a href="Monacer.php"><font color="black">Acer</font></a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Impresion . . . . . . .</a>
+                        <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Impresión &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                         <ul>
                             <li>
-                                <a href="#">Laser</a>
+                                <a href="#"><font color="black">Laser</font></a>
                                 <ul>
-                                    <li><a href="Laserhp.php">HP</a></li>
-                                    <li><a href="Laserbrother.php">Brother</a></li>
-                                    <li><a href="Laserdell.php">Dell</a></li>
-                                    <li><a href="Laserepson.php">Epson</a></li>
+                                    <li><a href="Laserhp.php"><font color="black">HP</font></a></li>
+                                    <li><a href="Laserbrother.php"><font color="black">Brother</font></a></li>
+                                    <li><a href="Laserdell.php"><font color="black">Dell</font></a></li>
+                                    <li><a href="Laserepson.php"><font color="black">Epson</font></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Inyección de tinta</a>
+                                <a href="#"><font color="black">Inyección de tinta</font></a>
                                 <ul>
-                                    <li><a href="Tintahp.php">HP</a></li>
-                                    <li><a href="Tintacanon.php">Canon</a></li>
-                                    <li><a href="Tintaepson.php">Epson</a></li>
+                                    <li><a href="Tintahp.php"><font color="black">HP</font></a></li>
+                                    <li><a href="Tintacanon.php"><font color="black">Canon</font></a></li>
+                                    <li><a href="Tintaepson.php"><font color="black">Epson</font></a></li>
 
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . . . . Gamers . . . . . . .</a>
+                        <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Gamers  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                         <ul>
-                            <li><a href="Consolas.php">Consolas</a></li>
-                            <li><a href="Videojuegos.php">Videojuegos</a></li>
+                            <li><a href="Consolas.php"><font color="black">Consolas</font></a></li>
+                            <li><a href="Videojuegos.php"><font color="black">Videojuegos</font></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> . . . . .  . . Software . . . . . . .</a>
+                        <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Software &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
                         <ul>
                             <li>
-                                <a href="#">Windows</a>
+                                <a href="#"><font color="black">Windows</font></a>
                                 <ul>
-                                    <li><a href="Office.php">Office365</a></li>
-                                    <li><a href="Licenciaswindows.php">Licencias</a></li>
+                                    <li><a href="Office.php"><font color="black">Office365</font></a></li>
+                                    <li><a href="Licenciaswindows.php"><font color="black">Licencias</font></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Antivirus</a>
+                                <a href="#"><font color="black">Antivirus</font></a>
                                 <ul>
-                                    <li><a href="Antivirus.php">Descargas</a></li>
-                                    <li><a href="Licenciasantivirus.php">Licencias</a></li>
+                                    <li><a href="Antivirus.php"><font color="black">Descargas</font></a></li>
+                                    <li><a href="Licenciasantivirus.php"><font color="black">Licencias</font></a></li>
                                 </ul>
                             </li>
 
                         </ul>
                     </li>
                     <li>
-                        <a href="Soporte.php"> . . . . . . Soporte . . . . . .</a>
+                        <a href="Soporte.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Soporte &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
                         <ul>
 
                     </li>
@@ -133,7 +133,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </li>
 
                 <li>
-                    <a href="contact.php"> . . . . . . Contactanos . . . . . .</a>
+                    <a href="contact.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contactanos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>                
                 </li>
                 </ul>
                 <span class="left-ribbon"> </span> 
@@ -147,7 +147,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="contact_info">
                     <div class="map">
                         <iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-                                src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#888;text-align:left;font-size:0.85em">Ver mapa más grande</a></small>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5173274340123!2d-99.65551498554723!3d19.303345286957892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd89e64e867ef9%3A0x2c4cc5185d8735bf!2sDr.+Alfonso+Garc%C3%ADa%2C+Rancho+la+Mora%2C+50020+Toluca+de+Lerdo%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1460588463638"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#888;text-align:left;font-size:0.85em">Ver mapa más grande</a></small>
                     </div>
                 </div>
                 <div class="contact-form">

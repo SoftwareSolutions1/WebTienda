@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -148,7 +148,7 @@ and open the template in the editor.
         <a class="toggleMenu" href="#">Menu</a>
         <ul class="nav">
             <li>
-                <a href="index.php"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a> 
+                <a href="index.php"><font color="gray">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a> 
             </li>
             <li  class="test">
                 <a href="#"><font color="black">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cómputo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></a>
@@ -273,11 +273,11 @@ and open the template in the editor.
                 <div class="ocarousel_slider">  
                     <div class="ocarousel example_photos" data-ocarousel-perscroll="3">
                         <div class="ocarousel_window">
-                            <a href="Hp.php" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
+                            <a href="hp.php" title="img1"> <img src="images/banerLastProduct/HPSP133.jpg" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="Mac.php" title="img2"> <img src="images/banerLastProduct/HPSX360131.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="#" title="img3"> <img src="images/banerLastProduct/HPSX360132.png" alt="" /><p><font color="black">Laptop HP</font></p></a>
                             <a href="Lenovo.php" title="img4"> <img src="images/banerLastProduct/HPSX3603.png" alt="" /><p><font color="black">Laptop HP</font> </p></a>
-                            <a href="#" title="img5"> <img src="images/banerLastProduct/JVCLTHD.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
+                            <a href="PantallaJvcl.php" title="img5"> <img src="images/banerLastProduct/JVCLTHD.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
                             <a href="#" title="img6"> <img src="images/banerLastProduct/JVCLTHD2.png" alt="" /><p><font color="black">Pantalla JVCLHD</font></p></a>
                             <a href="#" title="img1"> <img src="images/banerLastProduct/KDL-50W800C2.png" alt="" /><p><font color="black">Pantalla KDL</font></p></a>
                             <a href="#" title="img2"> <img src="images/banerLastProduct/LEDTV32HD.png" alt="" /><p><font color="black">Pantalla LEDTV</font></p></a>
@@ -344,14 +344,14 @@ and open the template in the editor.
                     <h3>Navegar en todas las categorías</h3>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="Hp.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
-                                <a href="HP.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
+                            <h4><a href="hp.php">&nbsp;Laptop HP SPECTRE 13.3&nbsp; </a></h4>
+                                <a href="hP.php"><img src="images/banerLastProduct/HPSP133.jpg" alt="" /></a>
                                 <div class="price-details">
                                     <div class="price-number">
                                         <p><span class="rupees">$19,999 </span></p>
                                     </div>
                                     <div class="add-cart">								
-                                        <h4><a href="HP.php">Mas Información</a></h4>
+                                        <h4><a href="hp.php">Mas Información</a></h4>
                                     </div>
                                     <div class="clear"></div>
                                 </div>					 
@@ -385,14 +385,14 @@ and open the template in the editor.
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JVCL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD </a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/JVCLTHD.png" alt="" /></a>
+                            <h4><a href="PantallaJvcl.php">Pantalla &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JVCL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD </a></h4>
+                            <a href="PantallaJvcl.php"><img src="images/banerLastProduct/JVCLTHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$3,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="PantallaJvcl.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -400,55 +400,55 @@ and open the template in the editor.
                     </div>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCL - LED 32D3260&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /></a>
+                            <h4><a href="pantalla_TLLCD4000.php">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCL - LED 32D3260&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="pantalla_TLLCD4000.php"><img src="images/banerLastProduct/TLLCD40004.jpg" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$4,199</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_TLLCD4000.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>					 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philips Smart TV Serie 8000 3D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/PSTV80003.png" alt="" /></a>
+                            <h4><a href="pantalla_PSTV8000.php">Pantalla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philips Smart TV Serie 8000 3D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HD</a></h4>
+                            <a href="pantalla_PSTV8000.php"><img src="images/banerLastProduct/PSTV80003.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$9,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_PSTV8000.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla Led 43" Uhd Smart Tv 43Uf6900</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/PL43UST3.png" alt="" /></a>
+                            <h4><a href="pantalla_PL43UST.php">Pantalla Led 43" Uhd Smart Tv 43Uf6900</a></h4>
+                            <a href="pantalla_PL43UST.php"><img src="images/banerLastProduct/PL43UST3.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$13,699</span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_PL43UST.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
 
                         </div>
                         <div class="grid_1_of_4 images_1_of_4">
-                            <h4><a href="preview.html">Pantalla 65" Led Ultra Hd 65H7B</a></h4>
-                            <a href="preview.html"><img src="images/banerLastProduct/P65LHD.png" alt="" /></a>
+                            <h4><a href="pantalla_P65LHD.php">Pantalla 65" Led Ultra Hd 65H7B</a></h4>
+                            <a href="pantalla_P65LHD.php"><img src="images/banerLastProduct/P65LHD.png" alt="" /></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$84,999 </span></p>
                                 </div>
                                 <div class="add-cart">								
-                                    <h4><a href="preview.html">Mas Información</a></h4>
+                                    <h4><a href="pantalla_P65LHD.php">Mas Información</a></h4>
                                 </div>
                                 <div class="clear"></div>
                             </div>
